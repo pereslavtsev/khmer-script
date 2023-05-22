@@ -15,10 +15,17 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "gatsby": "^5.10.0",
-    "gatsby-plugin-sass": "^6.10.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "@duik/it": "^0.6.0",
+    "@types/node": "18.16.14",
+    "@types/react": "16.14.41",
+    "@types/react-dom": "16.9.19",
+    "classnames": "^2.3.2",
+    "gatsby": "latest-v3",
+    "gatsby-plugin-sass": "latest-v3",
+    "gatsby-plugin-typescript": "latest-v3",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-transition-group": "^4.4.5",
     "sass": "^1.62.1"
   }
 }
