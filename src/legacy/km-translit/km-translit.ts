@@ -51,15 +51,15 @@ export function tr(text: string, lang: string, sc) {
         }
       } else if (progress === 'initial') {
         if (chartype[i] == 'combining_sign') {
-          // table.insert(curr_syl, c[i])
+          curr_syl.push(c[i]);
           progress = 'initial_combining';
         } else if (
           chartype[i] === 'sign' ||
           chartype[i] === 'consonant_shift'
         ) {
-          // table.insert(curr_syl, c[i])
+          curr_syl.push(c[i]);
         } else if (chartype[i] === 'vowel_sign') {
-          // table.insert(curr_syl, c[i])
+          curr_syl.push(c[i]);
           progress = 'vowel';
         } else if (chartype[i] === 'terminating_vowel') {
           if (
@@ -67,21 +67,104 @@ export function tr(text: string, lang: string, sc) {
             (i === c.length - 1 ||
               (i > c.length + 1 && chartype[i + 2] == 'consonant'))
           ) {
-            // table.insert(curr_syl, c[i])
+            curr_syl.push(c[i]);
             progress = 'vowel';
           } else {
-            // table.insert(curr_syl, c[i])
+            curr_syl.push(c[i]);
             // table.insert(syl, table.concat(curr_syl, ""))
             curr_syl = [];
             progress = 'none';
           }
         } else if (chartype[i] == 'consonant') {
-          let vowel_found = false
-          let j, skipped = i;
+          let vowel_found = false;
+          let j = 0,
+            skipped = i;
+          while (!vowel_found) {
+            if (
+              !(
+                chartype[j] ||
+                chartype[j] === 'punctuation' ||
+                chartype[j] === 'indep_vowel' ||
+                chartype[j] === 'terminating_sign' ||
+                chartype[j] === 'ZWS'
+              )
+            ) {
+              skipped = 1;
+              break;
+            } else if (
+              chartype[j] === 'consonant' ||
+              chartype[j] == 'combining_sign' ||
+              (chartype[j] == 'sign' && c[j] !== '័')
+            ) {
+              next_types.push(chartype[j]);
+            } else {
+              vowel_found = true;
+            }
+            j = j + 1;
+          }
+          // if (skipped !== 0 || match(table.concat(next_types, " "), 'consonant s?i?g?n? ?consonant')) {
+          //   curr_syl.push(c[i]);
+          //   progress = 'coda';
+          // } else {
+          //   // table.insert(syl, table.concat(curr_syl, ""))
+          //   curr_syl = [c[i]]
+          //   progress = 'initial'
+          // }
+        } else {
+          syl.push(c[i]);
+          progress = 'none';
+        }
+      } else if (progress === 'initial_combining') {
+        if (chartype[i] === 'consonant') {
+          curr_syl.push(c[i]);
+          progress = 'initial';
+        } else {
+          syl.push(c[i]);
+          progress = 'none';
+        }
+      } else if (progress === 'vowel') {
+        if (chartype[i] === 'vowel_sign') {
+          curr_syl.push(c[i]);
+        } else if (chartype[i] === 'terminating_vowel') {
+
+        } else if (chartype[i] === 'consonant') {
+
+        } else {
+          syl.push(c[i]);
+          progress = 'none'
+        }
+      } else if (progress === 'coda') {
+        if (chartype[i] == 'combining_sign') {
+          curr_syl.push(c[i]);
+          progress = 'coda_combining';
+        } else if (
+          chartype[i] === 'sign' ||
+          chartype[i] === 'terminating_sign'
+        ) {
+          curr_syl.push(c[i]);
+        } else {
+          // table.insert(syl, table.concat(curr_syl, ""))
+          curr_syl = [];
+          if (chartype[i] === 'consonant') {
+            curr_syl.push(c[i]);
+            progress = 'initial';
+          } else {
+            syl.push(c[i]);
+            progress = 'none';
+          }
+        }
+      } else if (progress === 'coda_combining') {
+        if (chartype[i] == 'consonant') {
+          curr_syl.push(c[i]);
+          progress = 'coda';
+        } else {
+          // table.insert(syl, table.concat(curr_syl, ""))
+          curr_syl = [];
+          progress = 'none';
         }
       }
 
-      console.log(word);
+      return text;
     }
   }
 }
