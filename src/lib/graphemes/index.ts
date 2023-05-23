@@ -8,6 +8,8 @@ export {
   vowels,
 }
 
+export const graphemes = [consonants, digits, vowels].flatMap(range => Object.values(range));
+
 export * from './consonants';
 export * from './digits';
 export * from './vowels';

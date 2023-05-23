@@ -3,12 +3,14 @@ import {Button, Card, TextArea, TextField, Widget, WidgetContainer, WidgetHeader
 import { consonants } from '../lib/graphemes'
 import {useState} from "react";
 import {CONSONANT_REGEX} from "../lib/utils/regexp";
+import {Word} from "../lib";
+import { tr } from '../legacy/km-translit/km-translit';
 
 console.log('consonants', CONSONANT_REGEX)
 
 const IndexPage = () => {
   const [text, setText] = useState('និគ្គហិត');
-  console.log(text)
+  console.log(111, tr(text, '', ''))
   return (
     <main>
       <WidgetContainer>

@@ -23,6 +23,7 @@
     "gatsby": "latest-v3",
     "gatsby-plugin-sass": "latest-v3",
     "gatsby-plugin-typescript": "latest-v3",
+    "prettier": "^2.8.8",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "react-transition-group": "^4.4.5",
