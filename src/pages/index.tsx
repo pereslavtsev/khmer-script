@@ -1,20 +1,18 @@
 import * as React from "react"
 import {Button, Card, TextArea, TextField, Widget, WidgetContainer, WidgetHeader, WidgetTable} from "@duik/it";
-import * as consonants from '../lib/consonants'
+import { consonants } from '../lib/graphemes'
 import {useState} from "react";
+import {CONSONANT_REGEX} from "../lib/utils/regexp";
 
-console.log('consonants', Object.values(consonants))
+console.log('consonants', CONSONANT_REGEX)
 
 const IndexPage = () => {
-  const [text, setText] = useState('');
+  const [text, setText] = useState('និគ្គហិត');
   console.log(text)
   return (
     <main>
-      <Button>
-        Default
-      </Button>
       <WidgetContainer>
-        <TextArea value={text} onChange={event => setText(event.target.value)} />
+        <TextArea label="Khmer Text" value={text} onChange={event => setText(event.target.value)} />
         {/*<Widget>*/}
         {/*  <WidgetHeader><h3>Consonants</h3></WidgetHeader>*/}
         {/*  <WidgetTable>*/}
