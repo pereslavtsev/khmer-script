@@ -4,10 +4,13 @@ export class Word {
   constructor(readonly raw: string) {
   }
 
+  get characters() {
+    return this.raw.split('');
+  }
+
   get graphemes() {
-    const characters = this.raw.split('')
     const graphemes = [];
-    for (const character of characters) {
+    for (const character of this.characters) {
       try {
         graphemes.push(makeGrapheme(character, { word: this }));
       } catch (e) {

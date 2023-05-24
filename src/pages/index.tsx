@@ -1,20 +1,46 @@
 import * as React from "react"
-import {Button, Card, TextArea, TextField, Widget, WidgetContainer, WidgetHeader, WidgetTable} from "@duik/it";
+import {
+  Button,
+  ButtonGroup,
+  Card,
+  TextArea,
+  TextField,
+  Widget,
+  WidgetContainer,
+  WidgetHeader,
+  WidgetTable,
+} from '@duik/it';
 import { consonants } from '../lib/graphemes'
-import {useState} from "react";
+import { FC, useState } from 'react';
 import {CONSONANT_REGEX} from "../lib/utils/regexp";
 import {Word} from "../lib";
-// import { tr } from '../legacy/km-translit/km-translit';
+import { tr } from '../legacy/km-translit/km-translit';
 
 console.log('consonants', CONSONANT_REGEX)
 
+interface WordContainerProps {
+  word: Word;
+}
+
+const WordContainer: FC<WordContainerProps> = (props) => {
+  const { word } = props;
+  return <div>
+    <ButtonGroup>
+      {word.characters.map((ch, index) => <Button key={index} square transparent>{ch}</Button>)}
+    </ButtonGroup>
+  </div>
+}
+
 const IndexPage = () => {
   const [text, setText] = useState('និគ្គហិត');
+  const word = new Word(text);
+  console.debug(word);
   // console.log(111, tr(text, '', ''))
   return (
     <main>
       <WidgetContainer>
         <TextArea label="Khmer Text" value={text} onChange={event => setText(event.target.value)} />
+        <WordContainer word={word} />
         {/*<Widget>*/}
         {/*  <WidgetHeader><h3>Consonants</h3></WidgetHeader>*/}
         {/*  <WidgetTable>*/}

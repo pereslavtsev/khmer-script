@@ -12,18 +12,18 @@ export function tr(text: string, lang: string, sc) {
   // text = sc:fixDiscouragedSequences(text)
   // text = sc:toFixedNFD(text)
   // text = text.replace(/[០-៹]/g, sp_symbols);
-  text = text.replace(/(.)្(.្.)/, '%1​%2');
-  text = text.replace(
-    /([កខគឃងចឆជឈញដឋឌឍណតថទធនបផពភមយរលវឝឞសហឡអ]្[កខគឃងចឆជឈញដឋឌឍណតថទធនបផពភមយរលវឝឞសហឡអ])([កខគឃងចឆជឈញដឋឌឍណតថទធនបផពភមយរលវឝឞសហឡអ])/,
-    '​%1%2',
-  );
-  text = text.replace(
-    /([កខគឃងចឆជឈញដឋឌឍណតថទធនបផពភមយរលវឝឞសហឡអ])([កខគឃងចឆជឈញដឋឌឍណតថទធនបផពភមយរលវឝឞសហឡអ]្?[កខគឃងចឆជឈញដឋឌឍណតថទធនបផពភមយរលវឝឞសហឡអ])/,
-    '%1​%2',
-  );
-  text = text.replace(/(.៍)/, '​%1');
+  // text = text.replace(/(.)្(.្.)/, '%1​%2');
+  // text = text.replace(
+  //   /([កខគឃងចឆជឈញដឋឌឍណតថទធនបផពភមយរលវឝឞសហឡអ]្[កខគឃងចឆជឈញដឋឌឍណតថទធនបផពភមយរលវឝឞសហឡអ])([កខគឃងចឆជឈញដឋឌឍណតថទធនបផពភមយរលវឝឞសហឡអ])/,
+  //   '​%1%2',
+  // );
+  // text = text.replace(
+  //   /([កខគឃងចឆជឈញដឋឌឍណតថទធនបផពភមយរលវឝឞសហឡអ])([កខគឃងចឆជឈញដឋឌឍណតថទធនបផពភមយរលវឝឞសហឡអ]្?[កខគឃងចឆជឈញដឋឌឍណតថទធនបផពភមយរលវឝឞសហឡអ])/,
+  //   '%1​%2',
+  // );
+  // text = text.replace(/(.៍)/, '​%1');
 
-  for (const word of text.match(/[ក-៝​]+/g)) {
+  for (const word of text.match(/[\u1780-\u17dd\u200b]+/g)) {
     const original_text = word;
     let c = [],
       chartype = [],
@@ -31,12 +31,15 @@ export function tr(text: string, lang: string, sc) {
       curr_syl = [];
     let progress = 'none';
 
-    for (let i = 0; word.length; i++) {
-      c[i] = word.slice(i, i);
+    word.split('').forEach((ch, i) => {
+      c[i] = ch;
       chartype[i] = char_type[c[i]];
-    }
+    })
 
-    for (let i = 0; c.length + 1; i++) {
+    console.debug('c', c);
+    console.debug('chartype', chartype);
+
+    for (let i = 0; i < c.length + 1; i++) {
       const next_types = [];
       if (i == c.length + 1 || chartype[i] == 'ZWS') {
         progress = 'none';
@@ -44,10 +47,10 @@ export function tr(text: string, lang: string, sc) {
         curr_syl = [];
       } else if (progress === 'none') {
         if (chartype[i] === 'consonant') {
-          // table.insert(curr_syl, c[i])
+          curr_syl.push(c[i]);
           progress = 'initial';
         } else {
-          // table.insert(syl, c[i])
+          syl.push(c[i]);
         }
       } else if (progress === 'initial') {
         if (chartype[i] == 'combining_sign') {
@@ -163,6 +166,9 @@ export function tr(text: string, lang: string, sc) {
           progress = 'none';
         }
       }
+
+      console.debug('syl', syl);
+      console.debug('curr_syl', curr_syl);
 
       return text;
     }
