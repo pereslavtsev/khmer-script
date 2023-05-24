@@ -41,9 +41,9 @@ export function tr(text: string, lang: string, sc) {
 
     for (let i = 0; i < c.length + 1; i++) {
       const next_types = [];
-      if (i == c.length + 1 || chartype[i] == 'ZWS') {
+      if (i === c.length + 1 || chartype[i] == 'ZWS') {
         progress = 'none';
-        // table.insert(syl, table.concat(curr_syl, ""))
+        syl.push(curr_syl.join(""))
         curr_syl = [];
       } else if (progress === 'none') {
         if (chartype[i] === 'consonant') {
@@ -66,22 +66,22 @@ export function tr(text: string, lang: string, sc) {
           progress = 'vowel';
         } else if (chartype[i] === 'terminating_vowel') {
           if (
-            c[i - 1] + c[i] + (c[i + 1] || '') == 'ាំង' &&
+            c[i - 1] + c[i] + (c[i + 1] || '') === 'ាំង' &&
             (i === c.length - 1 ||
-              (i > c.length + 1 && chartype[i + 2] == 'consonant'))
+              (i > c.length + 1 && chartype[i + 2] === 'consonant'))
           ) {
             curr_syl.push(c[i]);
             progress = 'vowel';
           } else {
             curr_syl.push(c[i]);
-            // table.insert(syl, table.concat(curr_syl, ""))
+            syl.push(curr_syl.join(""))
             curr_syl = [];
             progress = 'none';
           }
         } else if (chartype[i] == 'consonant') {
           let vowel_found = false;
-          let j = 0,
-            skipped = i;
+          let j = i,
+            skipped = 0;
           while (!vowel_found) {
             if (
               !(
@@ -96,8 +96,8 @@ export function tr(text: string, lang: string, sc) {
               break;
             } else if (
               chartype[j] === 'consonant' ||
-              chartype[j] == 'combining_sign' ||
-              (chartype[j] == 'sign' && c[j] !== '័')
+              chartype[j] === 'combining_sign' ||
+              (chartype[j] === 'sign' && c[j] !== '័')
             ) {
               next_types.push(chartype[j]);
             } else {
@@ -137,7 +137,7 @@ export function tr(text: string, lang: string, sc) {
           progress = 'none'
         }
       } else if (progress === 'coda') {
-        if (chartype[i] == 'combining_sign') {
+        if (chartype[i] === 'combining_sign') {
           curr_syl.push(c[i]);
           progress = 'coda_combining';
         } else if (
@@ -146,7 +146,7 @@ export function tr(text: string, lang: string, sc) {
         ) {
           curr_syl.push(c[i]);
         } else {
-          // table.insert(syl, table.concat(curr_syl, ""))
+          syl.push(curr_syl.join(""))
           curr_syl = [];
           if (chartype[i] === 'consonant') {
             curr_syl.push(c[i]);
@@ -157,11 +157,11 @@ export function tr(text: string, lang: string, sc) {
           }
         }
       } else if (progress === 'coda_combining') {
-        if (chartype[i] == 'consonant') {
+        if (chartype[i] === 'consonant') {
           curr_syl.push(c[i]);
           progress = 'coda';
         } else {
-          // table.insert(syl, table.concat(curr_syl, ""))
+          syl.push(curr_syl.join(""))
           curr_syl = [];
           progress = 'none';
         }

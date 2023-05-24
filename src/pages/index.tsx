@@ -35,11 +35,12 @@ const IndexPage = () => {
   const [text, setText] = useState('និគ្គហិត');
   const word = new Word(text);
   console.debug(word);
+  console.debug(word.syllables);
   // console.log(111, tr(text, '', ''))
   return (
     <main>
       <WidgetContainer>
-        <TextArea label="Khmer Text" value={text} onChange={event => setText(event.target.value)} />
+        <TextArea label="Khmer Text" value={text} onChange={event => setText(event.target.value)} style={{ fontSize: '1.2em' }} />
         <WordContainer word={word} />
         {/*<Widget>*/}
         {/*  <WidgetHeader><h3>Consonants</h3></WidgetHeader>*/}
