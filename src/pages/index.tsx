@@ -36,7 +36,7 @@ const IndexPage = () => {
   const word = new Word(text);
   console.debug(word);
   console.debug(word.syllables);
-  // console.log(111, tr(text, '', ''))
+  console.log(111, tr(text, '', ''))
   return (
     <main>
       <WidgetContainer>
