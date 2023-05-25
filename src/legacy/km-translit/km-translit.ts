@@ -1,11 +1,4 @@
-import {
-  cons_conv,
-  vowel_conv,
-  indep_vowel,
-  digraph,
-  sp_symbols,
-  char_type,
-} from './consts';
+import { cons_conv, vowel_conv, indep_vowel, digraph, sp_symbols, char_type } from './consts';
 
 export function tr(text: string, lang: string, sc) {
   // TODO:
@@ -56,20 +49,13 @@ export function tr(text: string, lang: string, sc) {
         if (chartype[i] == 'combining_sign') {
           curr_syl.push(c[i]);
           progress = 'initial_combining';
-        } else if (
-          chartype[i] === 'sign' ||
-          chartype[i] === 'consonant_shift'
-        ) {
+        } else if (chartype[i] === 'sign' || chartype[i] === 'consonant_shift') {
           curr_syl.push(c[i]);
         } else if (chartype[i] === 'vowel_sign') {
           curr_syl.push(c[i]);
           progress = 'vowel';
         } else if (chartype[i] === 'terminating_vowel') {
-          if (
-            c[i - 1] + c[i] + (c[i + 1] || '') === 'ាំង' &&
-            (i === c.length - 1 ||
-              (i > c.length + 1 && chartype[i + 2] === 'consonant'))
-          ) {
+          if (c[i - 1] + c[i] + (c[i + 1] || '') === 'ាំង' && (i === c.length - 1 || (i > c.length + 1 && chartype[i + 2] === 'consonant'))) {
             curr_syl.push(c[i]);
             progress = 'vowel';
           } else {
@@ -94,11 +80,7 @@ export function tr(text: string, lang: string, sc) {
             ) {
               skipped = 1;
               break;
-            } else if (
-              chartype[j] === 'consonant' ||
-              chartype[j] === 'combining_sign' ||
-              (chartype[j] === 'sign' && c[j] !== '័')
-            ) {
+            } else if (chartype[j] === 'consonant' || chartype[j] === 'combining_sign' || (chartype[j] === 'sign' && c[j] !== '័')) {
               next_types.push(chartype[j]);
             } else {
               vowel_found = true;
@@ -132,11 +114,7 @@ export function tr(text: string, lang: string, sc) {
         if (chartype[i] === 'vowel_sign') {
           curr_syl.push(c[i]);
         } else if (chartype[i] === 'terminating_vowel') {
-          if (
-            c[i - 1] + c[i] + (c[i + 1] || '') === 'ាំង' &&
-            (i == c.length - 1 ||
-              (i > c.length + 1 && chartype[i + 2] === 'consonant'))
-          ) {
+          if (c[i - 1] + c[i] + (c[i + 1] || '') === 'ាំង' && (i == c.length - 1 || (i > c.length + 1 && chartype[i + 2] === 'consonant'))) {
             curr_syl.push(c[i]);
             progress = 'vowel';
           } else {
@@ -161,11 +139,7 @@ export function tr(text: string, lang: string, sc) {
             ) {
               skipped = 1;
               break;
-            } else if (
-              chartype[j] === 'consonant' ||
-              chartype[j] === 'combining_sign' ||
-              (chartype[j] === 'sign' && c[j] !== '័')
-            ) {
+            } else if (chartype[j] === 'consonant' || chartype[j] === 'combining_sign' || (chartype[j] === 'sign' && c[j] !== '័')) {
               next_types.push(chartype[j]);
             } else {
               vowel_found = true;
@@ -191,10 +165,7 @@ export function tr(text: string, lang: string, sc) {
         if (chartype[i] === 'combining_sign') {
           curr_syl.push(c[i]);
           progress = 'coda_combining';
-        } else if (
-          chartype[i] === 'sign' ||
-          chartype[i] === 'terminating_sign'
-        ) {
+        } else if (chartype[i] === 'sign' || chartype[i] === 'terminating_sign') {
           curr_syl.push(c[i]);
         } else {
           syl.push(curr_syl.join(''));
