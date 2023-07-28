@@ -1,22 +1,22 @@
 import { cons_conv, vowel_conv, indep_vowel, digraph, sp_symbols, char_type } from './consts';
 
-export function tr(text: string, lang: string, sc) {
+export function tr(text: string, lang?: string, sc?) {
   // TODO:
   // text = sc:fixDiscouragedSequences(text)
   // text = sc:toFixedNFD(text)
-  // text = text.replace(/[០-៹]/g, sp_symbols);
-  // text = text.replace(/(.)្(.្.)/, '%1​%2');
-  // text = text.replace(
-  //   /([កខគឃងចឆជឈញដឋឌឍណតថទធនបផពភមយរលវឝឞសហឡអ]្[កខគឃងចឆជឈញដឋឌឍណតថទធនបផពភមយរលវឝឞសហឡអ])([កខគឃងចឆជឈញដឋឌឍណតថទធនបផពភមយរលវឝឞសហឡអ])/,
-  //   '​%1%2',
-  // );
-  // text = text.replace(
-  //   /([កខគឃងចឆជឈញដឋឌឍណតថទធនបផពភមយរលវឝឞសហឡអ])([កខគឃងចឆជឈញដឋឌឍណតថទធនបផពភមយរលវឝឞសហឡអ]្?[កខគឃងចឆជឈញដឋឌឍណតថទធនបផពភមយរលវឝឞសហឡអ])/,
-  //   '%1​%2',
-  // );
-  // text = text.replace(/(.៍)/, '​%1');
+  text = text.replace(/[០-៹]/g, sp_symbols);
+  text = text.replace(/(.)្(.្.)/, '%1​%2');
+  text = text.replace(
+    /([កខគឃងចឆជឈញដឋឌឍណតថទធនបផពភមយរលវឝឞសហឡអ]្[កខគឃងចឆជឈញដឋឌឍណតថទធនបផពភមយរលវឝឞសហឡអ])([កខគឃងចឆជឈញដឋឌឍណតថទធនបផពភមយរលវឝឞសហឡអ])/,
+    '​%1%2',
+  );
+  text = text.replace(
+    /([កខគឃងចឆជឈញដឋឌឍណតថទធនបផពភមយរលវឝឞសហឡអ])([កខគឃងចឆជឈញដឋឌឍណតថទធនបផពភមយរលវឝឞសហឡអ]្?[កខគឃងចឆជឈញដឋឌឍណតថទធនបផពភមយរលវឝឞសហឡអ])/,
+    '%1​%2',
+  );
+  text = text.replace(/(.៍)/, '​%1');
 
-  for (const word of text.match(/[\u1780-\u17dd\u200b]+/g)) {
+  for (let word of text.match(/[\u1780-\u17dd\u200b]+/g)) {
     const original_text = word;
     let c = [],
       chartype = [],
@@ -192,9 +192,17 @@ export function tr(text: string, lang: string, sc) {
       }
     }
 
-    console.debug('syl', syl);
-    console.debug('curr_syl', curr_syl);
+    for (let i = 0; i < syl.length; i++) {
+      syl[i] = syl[i].replace(syl[i], '់$', '')
 
-    return text;
+      console.log(syl)
+
+      word = syl.join('');
+      text = text.replace(original_text, word);
+    }
   }
+
+  // text = text.replace('([^ ]*) ៗ', '');
+
+  return text.normalize('NFC'); // return toNFC(text)
 }
