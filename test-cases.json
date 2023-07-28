@@ -1,0 +1,5868 @@
+[
+  {
+    "raw": "ដីឥដ្ឋ",
+    "expected": "dei’ĕdth",
+    "actual": "ʼĕdeidth",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ដ៏",
+    "expected": "TEMP",
+    "actual": "ដ៏",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ព្រហស្បតិ៍",
+    "expected": "prɔhoah",
+    "actual": "prôhsbâtិ៍",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "សៅរ៍",
+    "expected": "sav",
+    "actual": "saur៍",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "នំបុ័ង",
+    "expected": "numbâng",
+    "actual": "num័bŏng",
+    "differsAt": 4,
+    "passed": false
+  },
+  {
+    "raw": "នំប៉័ង",
+    "expected": "numbâng",
+    "actual": "numbâng",
+    "differsAt": 5,
+    "passed": false
+  },
+  {
+    "raw": "យ៉ៅហន",
+    "expected": "yavhân",
+    "actual": "yauhnô",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ពាក្យ",
+    "expected": "pyéak",
+    "actual": "péaky",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ក៏ប៉ុន្តែ",
+    "expected": "kɑɑ bŏntê",
+    "actual": "ក៏bŏntê",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ភាសា",
+    "expected": "phéasa",
+    "actual": "phéasa",
+    "differsAt": 0,
+    "passed": true
+  },
+  {
+    "raw": "លោក",
+    "expected": "loŭk",
+    "actual": "loŭk",
+    "differsAt": 0,
+    "passed": true
+  },
+  {
+    "raw": "អ្នក",
+    "expected": "ʼnâk",
+    "actual": "ʼnâk",
+    "differsAt": 0,
+    "passed": true
+  },
+  {
+    "raw": "គាត់",
+    "expected": "kéat",
+    "actual": "kéat",
+    "differsAt": 0,
+    "passed": true
+  },
+  {
+    "raw": "ព្រហ្មវិហារ",
+    "expected": "TEMP",
+    "actual": "prômâvĭhar",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ហ្វឹក",
+    "expected": "fœ̆k",
+    "actual": "fœ̆k",
+    "differsAt": 0,
+    "passed": true
+  },
+  {
+    "raw": "កាហ្វេ",
+    "expected": "kafé",
+    "actual": "kafé",
+    "differsAt": 0,
+    "passed": true
+  },
+  {
+    "raw": "ហ្វូង",
+    "expected": "TEMP",
+    "actual": "fong",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "យើង",
+    "expected": "TEMP",
+    "actual": "yeung",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ពួកអ្នក",
+    "expected": "TEMP",
+    "actual": "puŏkʼnâk",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "នេះ",
+    "expected": "TEMP",
+    "actual": "néh",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "នោះ",
+    "expected": "TEMP",
+    "actual": "nuŏh",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "អាយ",
+    "expected": "TEMP",
+    "actual": "ʼay",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "នាយ",
+    "expected": "TEMP",
+    "actual": "néay",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "អ្នកណា",
+    "expected": "TEMP",
+    "actual": "ʼnâkâna",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "នរណា",
+    "expected": "TEMP",
+    "actual": "nôrôna",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "អ្វី",
+    "expected": "TEMP",
+    "actual": "ʼvei",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "៛",
+    "expected": "riel",
+    "actual": "៛",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "កក",
+    "expected": "kâk",
+    "actual": "kâk",
+    "differsAt": 0,
+    "passed": true
+  },
+  {
+    "raw": "កក្កដា",
+    "expected": "gukgădā",
+    "actual": "kâkkâda",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "កង្កែប",
+    "expected": "kɑgnkaep",
+    "actual": "kângkêb",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "កង្ខើញដៃចូលដាល់",
+    "expected": "kɑngkʰaəñ day chool dal",
+    "actual": "kângkhaeunhdaicholdal",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "កង់",
+    "expected": "gong",
+    "actual": "kâng",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "កញ្ឆា",
+    "expected": "kɑñchʰaa",
+    "actual": "kânhchha",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "កញ្ញា",
+    "expected": "kăññā",
+    "actual": "kânhnhéa",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "កណ្ដួយ",
+    "expected": "kanduoy",
+    "actual": "kânduŏy",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "កន្ត្រៃ",
+    "expected": "kon trai",
+    "actual": "kântrai",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "កន្ទាលត្រអាក",
+    "expected": "kɑntiel trɑ’aak",
+    "actual": "kântéaltrâʼak",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "កន្លះ",
+    "expected": "kɑnlah",
+    "actual": "kânleăh",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "កន្សោម",
+    "expected": "kɑnsaom",
+    "actual": "kânsaôm",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "កន្សោមកិរិយា",
+    "expected": "kɑnsaom ke’ri’yaa",
+    "actual": "kânsaômkĕrĭyéa",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "កមល",
+    "expected": "kaʔmɑl",
+    "actual": "kâmôl",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "កម្ពុជា",
+    "expected": "gəmbpŭjīə",
+    "actual": "kâmpŭchéa",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "កម្លាំង",
+    "expected": "kɑmleang",
+    "actual": "kâmleăng",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "កាមធាតុ",
+    "expected": "kaam tʰiet",
+    "actual": "kamthéatŏ",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ការ",
+    "expected": "kaa",
+    "actual": "kar",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ការកំណត់",
+    "expected": "kaa kɑmnɑt",
+    "actual": "karkâmnât",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ការផ្សងព្រេង",
+    "expected": "kaa psɑɑng preeng",
+    "actual": "karphsângôpréng",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ការយល់",
+    "expected": "kaa yʊəl",
+    "actual": "karyôl",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ការរៀបការ",
+    "expected": "kaa riəp kaa",
+    "actual": "karriĕbkar",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "កាហ្វេ",
+    "expected": "kaafee",
+    "actual": "kafé",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "កាំបិត",
+    "expected": "kabet",
+    "actual": "kămbĕt",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "កិរិយាស័ព្ទ",
+    "expected": "keriyaa səp",
+    "actual": "kĕrĭyéasâpt",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "កុមារភាព",
+    "expected": "komā phiep",
+    "actual": "kŏméarphéap",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "កុម្ភៈ",
+    "expected": "gŭmpeyă",
+    "actual": "kŏmphéaʼ",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "កុំ",
+    "expected": "kom",
+    "actual": "kom",
+    "differsAt": 0,
+    "passed": true
+  },
+  {
+    "raw": "កុំព្យូទ័រ",
+    "expected": "kompyuutoa",
+    "actual": "kompyutôr",
+    "differsAt": 7,
+    "passed": false
+  },
+  {
+    "raw": "កូនង៉ា",
+    "expected": "goan ngaa",
+    "actual": "konnga",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "កូនង៉ែត",
+    "expected": "goan ngait",
+    "actual": "konngêt",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "កូរ៉ាន",
+    "expected": "kooraan",
+    "actual": "koran",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "កូរ៉េ",
+    "expected": "kōrē",
+    "actual": "koré",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "កូឡាឡាំពួរ",
+    "expected": "kuulaa-laampur",
+    "actual": "kolalămpuŏr",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "កែវ",
+    "expected": "kaev",
+    "actual": "kêv",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "កោះ",
+    "expected": "goh",
+    "actual": "kaŏh",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "កោះត្រល់",
+    "expected": "koh tral",
+    "actual": "kaŏhtrâl",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ក្ដាម",
+    "expected": "kdaam",
+    "actual": "kdam",
+    "differsAt": 4,
+    "passed": false
+  },
+  {
+    "raw": "ក្តុក",
+    "expected": "kdok",
+    "actual": "ktŏk",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ក្នុង",
+    "expected": "knong",
+    "actual": "knŏng",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ក្បាច់គុនដំបងវែង",
+    "expected": "kbachkun dɑmbɑɑng-vɛɛng",
+    "actual": "kbachkŭndâmbângôvêng",
+    "differsAt": 7,
+    "passed": false
+  },
+  {
+    "raw": "ក្បាល",
+    "expected": "kbaal",
+    "actual": "kbal",
+    "differsAt": 4,
+    "passed": false
+  },
+  {
+    "raw": "ក្មេង",
+    "expected": "kmeeng",
+    "actual": "kméng",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ក្មេងកំព្រា",
+    "expected": "kmeing kɑmpria",
+    "actual": "kméngkâmpréa",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ក្រ",
+    "expected": "krɑɑ",
+    "actual": "krâ",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ក្រដាស",
+    "expected": "grədāh",
+    "actual": "krâdas",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ក្របី",
+    "expected": "krɑbəy",
+    "actual": "krâbei",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ក្រពើ",
+    "expected": "krɑpəə",
+    "actual": "krâpeu",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ក្រមារ",
+    "expected": "krɑmaa",
+    "actual": "krâméar",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ក្រសាន",
+    "expected": "krɑsaan",
+    "actual": "krâsan",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ក្រសួង",
+    "expected": "krɑsuəng",
+    "actual": "krâsuŏng",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ក្រហម",
+    "expected": "grăhorm",
+    "actual": "krâhâm",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ក្រាប",
+    "expected": "kraap",
+    "actual": "krab",
+    "differsAt": 4,
+    "passed": false
+  },
+  {
+    "raw": "ក្រុកៗ",
+    "expected": "krok-krok",
+    "actual": "krŏkkrŏk",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ក្រុង",
+    "expected": "grong",
+    "actual": "krŏng",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ក្រុងកែប",
+    "expected": "krong kaep",
+    "actual": "krŏngkêb",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ក្រុងប៉ៃលិន",
+    "expected": "krong paylɨn",
+    "actual": "krŏngbailĭn",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ក្រុងព្រៃនគរ",
+    "expected": "grong bprēī nokor",
+    "actual": "krŏngpreynôkôr",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ក្រុងភ្នំពេញ",
+    "expected": "grong pnŭṁ bpeuñ",
+    "actual": "krŏngphnumpénh",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ក្រុងសៀមរាប",
+    "expected": "krong siem riep",
+    "actual": "krŏngsiĕmréab",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ក្រុមទាហាន",
+    "expected": "krom tiehien",
+    "actual": "krŏmtéahan",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ក្រែ",
+    "expected": "grair",
+    "actual": "krê",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ក្រៃ",
+    "expected": "kray",
+    "actual": "krai",
+    "differsAt": 4,
+    "passed": false
+  },
+  {
+    "raw": "ក្រៃលែង",
+    "expected": "krailaeng",
+    "actual": "krailêng",
+    "differsAt": 6,
+    "passed": false
+  },
+  {
+    "raw": "ក្លាហាន",
+    "expected": "klaa haan",
+    "actual": "klahan",
+    "differsAt": 4,
+    "passed": false
+  },
+  {
+    "raw": "ក្អែក",
+    "expected": "k’aek",
+    "actual": "kʼêk",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "កំពង់",
+    "expected": "kɑmpʊəng",
+    "actual": "kâmpông",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "កំហុស",
+    "expected": "kɑmhoh",
+    "actual": "kâmhŏs",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ខម",
+    "expected": "kʰɑɑm",
+    "actual": "khâm",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ខាង",
+    "expected": "kʰaang",
+    "actual": "khang",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ខាងក្រោយ",
+    "expected": "kāng graoī",
+    "actual": "khangkraôy",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ខួប",
+    "expected": "kʰuəp",
+    "actual": "khuŏb",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ខេត្ត",
+    "expected": "kʰaet",
+    "actual": "khétt",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ខេត្តកណ្ដាល",
+    "expected": "kʰaet kɑndaal",
+    "actual": "khéttâkândal",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ខេត្តកែប",
+    "expected": "kʰaet kaep",
+    "actual": "khéttâkêb",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ខេត្តកោះកុង",
+    "expected": "kʰaet kɑh kong",
+    "actual": "khéttâkaŏhkŏng",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ខេត្តក្រចេះ",
+    "expected": "kʰaet krɑceh",
+    "actual": "khéttâkrâchéh",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ខេត្តកំពង់ចាម",
+    "expected": "kʰaet kɑmpʊəng caam",
+    "actual": "khéttâkâmpôngcham",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ខេត្តកំពង់ឆ្នាំង",
+    "expected": "kʰaet kɑmpʊəng cnang",
+    "actual": "khéttâkâmpôngchhnăng",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ខេត្តកំពង់ធំ",
+    "expected": "kʰaet kɑmpʊəng tʰom",
+    "actual": "khéttâkâmpôngthum",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ខេត្តកំពង់ស្ពឺ",
+    "expected": "kʰaet kɑmpʊəng spɨɨ",
+    "actual": "khéttâkâmpôngspœ",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ខេត្តកំពត",
+    "expected": "kʰaet kɑmpɔɔt",
+    "actual": "khéttâkâmpôt",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ខេត្តប៉ៃលិន",
+    "expected": "kʰaet paylɨn",
+    "actual": "khéttâbailĭn",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ខេត្តបាត់ដំបង",
+    "expected": "kʰaet bat dɑmbɑɑng",
+    "actual": "khéttâbatdâmbâng",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ខេត្តពោធិ៍សាត់",
+    "expected": "kʰaet poo sat",
+    "actual": "khéttâpoŭthិ៍សាត់",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ខេត្តព្រះវិហារ",
+    "expected": "kʰaet preah vi’hie",
+    "actual": "khéttâpreăhvĭhar",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ខេត្តមណ្ឌលគិរី",
+    "expected": "kʰaet mʊəndʊəl ki’rii",
+    "actual": "khéttâmndôlôkĭri",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ខេត្តរតនៈគិរី",
+    "expected": "kʰaet rea’ta’na’ ki’rii",
+    "actual": "khéttârôtnéaʼkĭri",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ខេត្តសៀមរាប",
+    "expected": "kʰaet siem riep",
+    "actual": "khéttâsiĕmréab",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ខេត្តស្ទឹងត្រែង",
+    "expected": "kʰaet stɨng traeng",
+    "actual": "khéttâstœ̆ngtrêng",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ខែ",
+    "expected": "kʰae",
+    "actual": "khê",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ខែសុរិយគតិ",
+    "expected": "kʰae so’re’ya’",
+    "actual": "khêsŏrĭykôtĕ",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ខ្ញុំ",
+    "expected": "knyom",
+    "actual": "khnhom",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ខ្ទឹមស",
+    "expected": "ktɨm sɑɑ",
+    "actual": "khtœ̆msâ",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ខ្ទើយ",
+    "expected": "ktəəy",
+    "actual": "khteuy",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ខ្នង",
+    "expected": "knɑɑng",
+    "actual": "khnâng",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ខ្នួច",
+    "expected": "knuəc",
+    "actual": "khnuŏch",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ខ្ពង់មេឃ",
+    "expected": "kpʊəng meek",
+    "actual": "khpôngmékh",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ខ្ពស់",
+    "expected": "kpʊəh",
+    "actual": "khpôs",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ខ្មាស",
+    "expected": "kmaah",
+    "actual": "khmas",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ខ្មែរ",
+    "expected": "kmae",
+    "actual": "khmêr",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ខ្មែរក្រហម",
+    "expected": "kmē grăhorm",
+    "actual": "khmêrkrâhâm",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ខ្មៅ",
+    "expected": "kmav",
+    "actual": "khmau",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ខ្យល់",
+    "expected": "kyol",
+    "actual": "khyâl",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ខ្លាច",
+    "expected": "klaach",
+    "actual": "khlach",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ខ្លាញ់",
+    "expected": "klañ",
+    "actual": "khlanh",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ខ្លាញ់ជ្រូក",
+    "expected": "klang chrūk",
+    "actual": "khlanhchruk",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ខ្លាំង",
+    "expected": "klang",
+    "actual": "khlăng",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ខ្លឹម",
+    "expected": "kləm",
+    "actual": "khlœ̆m",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ខ្លុយ",
+    "expected": "khloy",
+    "actual": "khlŏy",
+    "differsAt": 4,
+    "passed": false
+  },
+  {
+    "raw": "ខ្លួន",
+    "expected": "kluən",
+    "actual": "khluŏn",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ខ្លះ",
+    "expected": "klah",
+    "actual": "khlăh",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ខ្សែ",
+    "expected": "ksai",
+    "actual": "khsê",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "គង់",
+    "expected": "kʊəng",
+    "actual": "kông",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "គណិតវិទ្យា",
+    "expected": "gēyəneuttəwityīə",
+    "actual": "kônĕtvĭtyéa",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "គណិតសាស្ត្រ",
+    "expected": "gēyəneuttəsāh",
+    "actual": "kônĕtsastrâ",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "គាត់",
+    "expected": "koat",
+    "actual": "kéat",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "គីមី",
+    "expected": "kiimii",
+    "actual": "kimi",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "គីមីវិទូ",
+    "expected": "kīmī vitū",
+    "actual": "kimivĭtu",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "គឺ",
+    "expected": "geu",
+    "actual": "kœ",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "គុណកិរិយា",
+    "expected": "kun keriyaa",
+    "actual": "kŭnkĕrĭyéa",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "គុណនាម",
+    "expected": "kun niem",
+    "actual": "kŭnnéam",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "គូ",
+    "expected": "kuu",
+    "actual": "ku",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "គូត",
+    "expected": "gūt",
+    "actual": "kut",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "គោ",
+    "expected": "kou",
+    "actual": "koŭ",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "គោមូត្រ",
+    "expected": "koo moot",
+    "actual": "koŭmutr",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "គ្នា",
+    "expected": "knīə",
+    "actual": "knéa",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "គ្មាន",
+    "expected": "kmien",
+    "actual": "kméan",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "គ្មានទីបញ្ចប់",
+    "expected": "kmien tii bɑñchɑp",
+    "actual": "kméantibnhchâb",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "គ្រាប់",
+    "expected": "kroap",
+    "actual": "kréab",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "គ្រាមភាសា",
+    "expected": "krīəm pīəsā",
+    "actual": "kréamphéasa",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "គ្រិស្តសាសនា",
+    "expected": "krɨh saasnaa",
+    "actual": "krĭstâsasnéa",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "គ្រូ",
+    "expected": "krū",
+    "actual": "kru",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "គ្រូបង្រៀន",
+    "expected": "krū bɑngriən",
+    "actual": "krubngriĕn",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "គ្រួសារ",
+    "expected": "krūəsā",
+    "actual": "kruŏsar",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "គ្រឿង",
+    "expected": "krɨəng",
+    "actual": "kreuang",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "គ៖",
+    "expected": "kɨː",
+    "actual": "kôː",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ឃាតករ",
+    "expected": "kʰiet kɑɑ",
+    "actual": "khéatkâr",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ឃុំ",
+    "expected": "kʰum",
+    "actual": "khŭm",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ឃើញ",
+    "expected": "kʰəəñ",
+    "actual": "kheunh",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ឃ្មុំ",
+    "expected": "kmum",
+    "actual": "khmŭm",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ឃ្លេ",
+    "expected": "klee",
+    "actual": "khlé",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ចង្កា",
+    "expected": "jonggaa",
+    "actual": "chângka",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ចង្កឹះ",
+    "expected": "chɑngkəh",
+    "actual": "chângkĕh",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ចម្រៀង",
+    "expected": "jomreeung",
+    "actual": "châmriĕng",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ចាការតា",
+    "expected": "jaakaata",
+    "actual": "chakarta",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ចាន",
+    "expected": "chaan",
+    "actual": "chan",
+    "differsAt": 4,
+    "passed": false
+  },
+  {
+    "raw": "ចាប",
+    "expected": "chaap",
+    "actual": "chab",
+    "differsAt": 4,
+    "passed": false
+  },
+  {
+    "raw": "ចាស់",
+    "expected": "chah",
+    "actual": "chas",
+    "differsAt": 4,
+    "passed": false
+  },
+  {
+    "raw": "ចាំ",
+    "expected": "jam",
+    "actual": "chăm",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ចិត្ដអត់ធ្មត់",
+    "expected": "jət ɑt tmʊət",
+    "actual": "chĕtdâʼâtthmôt",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ចិត្ត",
+    "expected": "cət",
+    "actual": "chĕtt",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ចិន",
+    "expected": "chən",
+    "actual": "chĕn",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ចិនកន្តាំង",
+    "expected": "chən kɑntang",
+    "actual": "chĕnkântăng",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ចិនដីគោក",
+    "expected": "cən dəy kook",
+    "actual": "chĕndeikoŭk",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ចូរ",
+    "expected": "joo",
+    "actual": "chor",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ចេះ",
+    "expected": "cheh",
+    "actual": "chéh",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ចៃ",
+    "expected": "cay",
+    "actual": "chai",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ចៃដន់",
+    "expected": "caydɑn",
+    "actual": "chaidân",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ចោរ",
+    "expected": "jao",
+    "actual": "chaôr",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ច្បាប់",
+    "expected": "chbap",
+    "actual": "chbab",
+    "differsAt": 5,
+    "passed": false
+  },
+  {
+    "raw": "ចំណងឈ្នាប់",
+    "expected": "chɑmnɑɑng chnoap",
+    "actual": "châmnângôchhnéab",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ចំណងធ្នាក់",
+    "expected": "chɑmnɑɑng tneak",
+    "actual": "châmnângôthnéak",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ចំបាំង",
+    "expected": "jombəng",
+    "actual": "châmbăng",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ចំរៀង",
+    "expected": "jomreeung",
+    "actual": "châmriĕng",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ឆោម",
+    "expected": "cʰaom",
+    "actual": "chhaôm",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ឆ្កែ",
+    "expected": "chkae",
+    "actual": "chhkê",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ឆ្កែបា",
+    "expected": "chkae baa",
+    "actual": "chhkêba",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ឆ្ងាញ់",
+    "expected": "chŋañ",
+    "actual": "chhnganh",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ឆ្នាំ",
+    "expected": "chnam",
+    "actual": "chhnăm",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ឆ្នេរសមុទ្រ",
+    "expected": "ch’nēi səmɔt",
+    "actual": "chhnérsâmŭtr",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ឆ្មា",
+    "expected": "chmā",
+    "actual": "chhma",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ឆ្លាត",
+    "expected": "chlāt",
+    "actual": "chhlat",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ឆ័ត្រ",
+    "expected": "cʰat",
+    "actual": "chhâtr",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ជនជាតិ",
+    "expected": "chɔɔn chiet",
+    "actual": "chônôchéatĕ",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ជនរងគ្រោះ",
+    "expected": "chɔɔn rɔɔng krʊək",
+    "actual": "chônôrngôkruŏh",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ជន្ម",
+    "expected": "cʊənmeaʔ",
+    "actual": "chônmô",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ជន្មា",
+    "expected": "cʊənmie",
+    "actual": "chônméa",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ជយោ",
+    "expected": "chea’you",
+    "actual": "chôyoŭ",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ជលធរ",
+    "expected": "cʊəleaʔtʰɔɔ",
+    "actual": "chôlôthrô",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ជា",
+    "expected": "jie",
+    "actual": "chéa",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ជាខ្មែរ",
+    "expected": "jie kmae",
+    "actual": "chéakhmêr",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ជាង",
+    "expected": "jieng",
+    "actual": "chéang",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ជាដរាប",
+    "expected": "jie dɑɑ riep",
+    "actual": "chéadréab",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ជាតិ",
+    "expected": "ciet",
+    "actual": "chéatĕ",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ជានិច្ច",
+    "expected": "jie nɨch",
+    "actual": "chéanĭchch",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ជីព",
+    "expected": "ciip",
+    "actual": "chip",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ជីវា",
+    "expected": "ciivaa",
+    "actual": "chivéa",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ជីវិត",
+    "expected": "jīweut",
+    "actual": "chivĭt",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ជួនកាល",
+    "expected": "jooǝngaal",
+    "actual": "chuŏnkal",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ជឿ",
+    "expected": "jɨə",
+    "actual": "cheua",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ជ្រលង",
+    "expected": "jrəlorng",
+    "actual": "chrôlông",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ជ្រលងភ្នំ",
+    "expected": "jrəlorng pnŭm",
+    "actual": "chrôlôngphnum",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ជ្រូក",
+    "expected": "chrūk",
+    "actual": "chruk",
+    "differsAt": 4,
+    "passed": false
+  },
+  {
+    "raw": "ជំនួយ",
+    "expected": "joonooay",
+    "actual": "chumnuŏy",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ជំនឿ",
+    "expected": "chumnɨə",
+    "actual": "chumneua",
+    "differsAt": 6,
+    "passed": false
+  },
+  {
+    "raw": "ឈាម",
+    "expected": "cʰiem",
+    "actual": "chhéam",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ឈឹង",
+    "expected": "chʰɨng",
+    "actual": "chhœ̆ng",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ឈឺ",
+    "expected": "chʰɨɨ",
+    "actual": "chhœ",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ឈឺចាប់",
+    "expected": "chʰɨɨ chap",
+    "actual": "chhœchab",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ឈូង",
+    "expected": "cʰuuŋ",
+    "actual": "chhung",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ឈើ",
+    "expected": "chəə",
+    "actual": "chheu",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ឈើគូស",
+    "expected": "chergūh",
+    "actual": "chheukus",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ឈ្ងប់ឈ្ងុយ",
+    "expected": "jngup jnguy",
+    "actual": "chhngôbchhngŭy",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ឈ្ងុយ",
+    "expected": "jnguy",
+    "actual": "chhngŭy",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ឈ្ងុយឈ្ងប់",
+    "expected": "jnguy jngup",
+    "actual": "chhngŭychhngôb",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ឈ្នាប់",
+    "expected": "chnoap",
+    "actual": "chhnéab",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ឈ្នះ",
+    "expected": "cneah",
+    "actual": "chhneăh",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ឈ្មោល",
+    "expected": "chmoul",
+    "actual": "chhmoŭl",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ឈ្មោះ",
+    "expected": "chmʊəh",
+    "actual": "chhmuŏh",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ញញឹម",
+    "expected": "ñɔñɨm",
+    "actual": "nhônhœ̆m",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ញី",
+    "expected": "ñii",
+    "actual": "nhi",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ញូដេលី",
+    "expected": "nyuu delii",
+    "actual": "nhudéli",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ញូវដេលហ៊ី",
+    "expected": "ñuw delhi",
+    "actual": "nhuvdélhi",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ញ្ជីវ័ន",
+    "expected": "saɲciivoan",
+    "actual": "nhchivôn",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ញ័រ",
+    "expected": "ɲoa",
+    "actual": "nhôr",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ដង្កូវ",
+    "expected": "dɑngkəv",
+    "actual": "dângkov",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ដប",
+    "expected": "dɑɑp",
+    "actual": "dâb",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ដប់",
+    "expected": "dop",
+    "actual": "dâb",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ដប់បី",
+    "expected": "dop bəi",
+    "actual": "dâbbei",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ដប់បួន",
+    "expected": "dop buən",
+    "actual": "dâbbuŏn",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ដប់ប្រាំ",
+    "expected": "dop pram",
+    "actual": "dâbbrăm",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ដប់ប្រាំបី",
+    "expected": "dop pram bəi",
+    "actual": "dâbbrămbei",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ដប់ប្រាំបួន",
+    "expected": "dop pram buən",
+    "actual": "dâbbrămbuŏn",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ដប់ប្រាំពីរ",
+    "expected": "dop pram pī",
+    "actual": "dâbbrămpir",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ដប់ប្រាំមួយ",
+    "expected": "dop pram muəy",
+    "actual": "dâbbrămmuŏy",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ដប់ពីរ",
+    "expected": "dop pī",
+    "actual": "dâbpir",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ដប់មួយ",
+    "expected": "dop muəy; colloquial: muəy dondop",
+    "actual": "dâbmuŏy",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ដាល់",
+    "expected": "dal",
+    "actual": "dal",
+    "differsAt": 0,
+    "passed": true
+  },
+  {
+    "raw": "ដាវ",
+    "expected": "dao",
+    "actual": "dav",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ដី",
+    "expected": "dəy",
+    "actual": "dei",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ដីគោក",
+    "expected": "dəy kook",
+    "actual": "deikoŭk",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ដីស",
+    "expected": "dəy sɑɑ",
+    "actual": "deis",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ដឹង",
+    "expected": "dəng",
+    "actual": "dœ̆ng",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ដឹងគុណ",
+    "expected": "dəng kun",
+    "actual": "dœ̆ngkŭn",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ដុល្លារ",
+    "expected": "dollaa",
+    "actual": "dŏlléar",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ដុំ",
+    "expected": "dom",
+    "actual": "dom",
+    "differsAt": 0,
+    "passed": true
+  },
+  {
+    "raw": "ដូង",
+    "expected": "dōng",
+    "actual": "dong",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ដើម",
+    "expected": "daəm",
+    "actual": "daeum",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ដើមឈើ",
+    "expected": "darm cher",
+    "actual": "daeumchheu",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ដើម្បី",
+    "expected": "daəmbəy",
+    "actual": "daeumbei",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ដើរ",
+    "expected": "daə",
+    "actual": "daeur",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ដេក",
+    "expected": "deek",
+    "actual": "dék",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ដែល",
+    "expected": "dael",
+    "actual": "dêl",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ដៃ",
+    "expected": "day",
+    "actual": "dai",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ដោយ",
+    "expected": "daoy",
+    "actual": "daôy",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ដោយគ្មាន",
+    "expected": "daoy kmien",
+    "actual": "daôykméan",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ដ្បិត",
+    "expected": "dbət",
+    "actual": "dbĕt",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ដំឡូង",
+    "expected": "damlaung",
+    "actual": "dâmlong",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ឋិតិ",
+    "expected": "tʰeʔteʔ",
+    "actual": "thĕtĕ",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ណាស់",
+    "expected": "nah",
+    "actual": "nas",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "តក់",
+    "expected": "tɑk",
+    "actual": "tâk",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "តក់ៗ",
+    "expected": "tɑk-tɑk",
+    "actual": "tâktâk",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "តស៊ូ",
+    "expected": "tɑɑ suu",
+    "actual": "tâsu",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "តាប",
+    "expected": "taap",
+    "actual": "tab",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "តារា",
+    "expected": "daaraa",
+    "actual": "taréa",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "តារាង",
+    "expected": "taaraang",
+    "actual": "taréang",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "តារាងខួបធាតុគីមី",
+    "expected": "taaraang kʰuəp tʰiet kiimii",
+    "actual": "taréangkhuŏbthéatŏkimi",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "តារារណប",
+    "expected": "dārā rɔnɔːp",
+    "actual": "taréarnâb",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "តារាវិទូ",
+    "expected": "dārā vitū",
+    "actual": "taréavĭtu",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "តុលា",
+    "expected": "dtolā",
+    "actual": "tŏléa",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "តូក្យូ",
+    "expected": "togyo",
+    "actual": "tokyo",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "តួ",
+    "expected": "tuə",
+    "actual": "tuŏ",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "តួអក្សរ",
+    "expected": "dtūə əksor",
+    "actual": "tuŏʼksâr",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "តោ",
+    "expected": "dtao",
+    "actual": "taô",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ត្រាប់",
+    "expected": "trap",
+    "actual": "trab",
+    "differsAt": 4,
+    "passed": false
+  },
+  {
+    "raw": "ត្រី",
+    "expected": "trəy",
+    "actual": "trei",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ត្រីឆ្លាម",
+    "expected": "trəy chlaam",
+    "actual": "treichhlam",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ត្រីមឹក",
+    "expected": "dtray meuk",
+    "actual": "treimœ̆k",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ត្រូវ",
+    "expected": "trəw",
+    "actual": "trov",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "តំរិះវិជ្ជា",
+    "expected": "tɑmreh vɨcchie",
+    "actual": "tâmrĭhvĭchchéa",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ថា",
+    "expected": "tʰaa",
+    "actual": "tha",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ថាំង",
+    "expected": "tung",
+    "actual": "thăng",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ថា៖",
+    "expected": "tʰaː",
+    "actual": "៖tha",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ថី",
+    "expected": "tʰəy",
+    "actual": "thei",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ថីមិន",
+    "expected": "tʰəy mɨn",
+    "actual": "theimĭn",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ថៃ",
+    "expected": "tʰay",
+    "actual": "thai",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ថ្ងៃ",
+    "expected": "thngai",
+    "actual": "thngai",
+    "differsAt": 0,
+    "passed": true
+  },
+  {
+    "raw": "ថ្ងៃច័ន្ទ",
+    "expected": "tngai jŭn",
+    "actual": "thngaichânt",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ថ្ងៃពុធ",
+    "expected": "tngai bpŭt",
+    "actual": "thngaipŭth",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ថ្ងៃព្រហស្បតិ៍",
+    "expected": "tngai bprăhōăh",
+    "actual": "thngaiprôhsbâtិ៍",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ថ្ងៃសុក្រ",
+    "expected": "tngai sok",
+    "actual": "thngaisŏkr",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ថ្ងៃសៅរ៍",
+    "expected": "tngai sao",
+    "actual": "thngaisaur៍",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ថ្ងៃអង្គារ",
+    "expected": "tngai ongīă",
+    "actual": "thngaiʼângkéar",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ថ្ងៃអាទិត្យ",
+    "expected": "tngai ādteut",
+    "actual": "thngaiʼatĭty",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ថ្ម",
+    "expected": "thmâ",
+    "actual": "thmâ",
+    "differsAt": 0,
+    "passed": true
+  },
+  {
+    "raw": "ថ្មី",
+    "expected": "thməi",
+    "actual": "thmei",
+    "differsAt": 4,
+    "passed": false
+  },
+  {
+    "raw": "ថ្លៃ",
+    "expected": "tlai",
+    "actual": "thlai",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ថ្វាយ",
+    "expected": "tvaay",
+    "actual": "thvay",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ទង់",
+    "expected": "tʊəng",
+    "actual": "tông",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ទណ្ឌឃាដ",
+    "expected": "tôndâkhéat",
+    "actual": "tôndôkhéad",
+    "differsAt": 5,
+    "passed": false
+  },
+  {
+    "raw": "ទទួល",
+    "expected": "tɔtuəl",
+    "actual": "tôtuŏl",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ទន្ទេញ",
+    "expected": "tʊəntɨɲ",
+    "actual": "tônténh",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ទន្លេ",
+    "expected": "dtūənlēi",
+    "actual": "tônlé",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ទន់",
+    "expected": "tʊən",
+    "actual": "tôn",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ទស",
+    "expected": "tʊəh, tea’sa’, tʊəhsa’",
+    "actual": "tôs",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ទសបញ្ញត្តិ",
+    "expected": "tʊəh baññat",
+    "actual": "tôsâbnhnhôttĕ",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ទា",
+    "expected": "tiea",
+    "actual": "téa",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ទាញយក",
+    "expected": "tieñ yɔɔk",
+    "actual": "téanhyôk",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ទាន",
+    "expected": "tien",
+    "actual": "téan",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ទិន្នន័យ",
+    "expected": "tinneaney",
+    "actual": "tĭnnônôy",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ទី",
+    "expected": "tii",
+    "actual": "ti",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ទីក្រុង",
+    "expected": "dtī grong",
+    "actual": "tikrŏng",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ទីក្រុងតូក្យូ",
+    "expected": "dtī grong togyo",
+    "actual": "tikrŏngtokyo",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ទីដប់",
+    "expected": "tii dɑp",
+    "actual": "tidbâ",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ទីប៉ាឆា",
+    "expected": "tīpāchā",
+    "actual": "tibachha",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ទឹក",
+    "expected": "tɨk",
+    "actual": "tœ̆k",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ទឹកកក",
+    "expected": "tɨk kɑɑ kɑɑ",
+    "actual": "tœ̆kkâk",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ទឹកខ្មៅ",
+    "expected": "dteuk kmao",
+    "actual": "tœ̆kkhmau",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ទឹកដោះ",
+    "expected": "dteuk doh",
+    "actual": "tœ̆kdaŏh",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ទឹកនោម",
+    "expected": "dteuk noam",
+    "actual": "tœ̆knoŭm",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ទឹកប្រាក់",
+    "expected": "tik prāk",
+    "actual": "tœ̆kbrak",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ទុកចិត្ត",
+    "expected": "dtuk jeut",
+    "actual": "tŭkchĕtt",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ទួរគី",
+    "expected": "tuorki",
+    "actual": "tuŏrki",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ទើប",
+    "expected": "təəp",
+    "actual": "teub",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ទៀត",
+    "expected": "dtīət",
+    "actual": "tiĕt",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ទេ",
+    "expected": "tei",
+    "actual": "té",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ទេព",
+    "expected": "teip",
+    "actual": "tép",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ទេពារក្ស",
+    "expected": "teipiereak",
+    "actual": "tépéarksâ",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ទេវកថា",
+    "expected": "teiveaʔ kaʔtʰaa",
+    "actual": "tévkâtha",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ទ្រសោ",
+    "expected": "trɔɔ sao",
+    "actual": "trôsaô",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ទ្រអ៊ូ",
+    "expected": "trɔɔ ’uu",
+    "actual": "trôʼu",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ទំងន់សុទ្ធ",
+    "expected": "tumngʊən sot",
+    "actual": "tumngônsŏtth",
+    "differsAt": 6,
+    "passed": false
+  },
+  {
+    "raw": "ទំព័រ",
+    "expected": "tumpoa",
+    "actual": "tumpôr",
+    "differsAt": 5,
+    "passed": false
+  },
+  {
+    "raw": "ទំលាក់",
+    "expected": "tumleak",
+    "actual": "tumléak",
+    "differsAt": 5,
+    "passed": false
+  },
+  {
+    "raw": "ទ័យ",
+    "expected": "tey",
+    "actual": "tôy",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ធនាគារ",
+    "expected": "tʰɔ:’niekie",
+    "actual": "thônéakéar",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ធម៌",
+    "expected": "tʰoa",
+    "actual": "ធម៌",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ធាតុ",
+    "expected": "tʰiet",
+    "actual": "théatŏ",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ធ្ងន់",
+    "expected": "tŋʊən",
+    "actual": "thngôn",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ធ្នូ",
+    "expected": "tnū",
+    "actual": "thnu",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ធ្មេញ",
+    "expected": "t’mēiñ",
+    "actual": "thménh",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ធំ",
+    "expected": "tʰom",
+    "actual": "thum",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "នគរ",
+    "expected": "nokor",
+    "actual": "nôkôr",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "នគរខ្មែរ",
+    "expected": "nokor kmē",
+    "actual": "nôkôrkhmêr",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "នភា",
+    "expected": "neaʔpʰie",
+    "actual": "nôphéa",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "នភាល័យ",
+    "expected": "neaʔpʰieley",
+    "actual": "nôphéalôy",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "នយោបាយ",
+    "expected": "nəyyoubaay",
+    "actual": "nôyoŭbay",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "នាក់",
+    "expected": "neak",
+    "actual": "néak",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "នាគ",
+    "expected": "niek",
+    "actual": "néak",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "នាងស្រី",
+    "expected": "neeung sray",
+    "actual": "néangsrei",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "នាទី",
+    "expected": "nīădtī",
+    "actual": "néati",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "នាម",
+    "expected": "niem",
+    "actual": "néam",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "និទាន",
+    "expected": "ni’tien",
+    "actual": "nĭtéan",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "និយមន័យ",
+    "expected": "ni’yum ney",
+    "actual": "nĭymônôy",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "និយាយ",
+    "expected": "niyiey",
+    "actual": "nĭyéay",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "និស្សិត",
+    "expected": "nihsət",
+    "actual": "nĭssĕt",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "នឹង",
+    "expected": "nyng",
+    "actual": "nœ̆ng",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "នៃ",
+    "expected": "ney",
+    "actual": "ney",
+    "differsAt": 0,
+    "passed": true
+  },
+  {
+    "raw": "នោម",
+    "expected": "noam",
+    "actual": "noŭm",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "នៅ",
+    "expected": "nɨv",
+    "actual": "nŏu",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "បកប្រែ",
+    "expected": "bɑɑk prae",
+    "actual": "bâkâbrê",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "បក្សី",
+    "expected": "bʌksēi",
+    "actual": "bâksei",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "បង",
+    "expected": "bɑɑng",
+    "actual": "bâng",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "បង្រៀន",
+    "expected": "bɑng-rīən",
+    "actual": "bângriĕn",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "បង្អួច",
+    "expected": "bong'ooich",
+    "actual": "bângʼuŏch",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "បញ្ចប់",
+    "expected": "bɑñchɑp",
+    "actual": "bânhchâb",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "បណ្ណាល័យ",
+    "expected": "bŭnnālai",
+    "actual": "bânnalôy",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "បន្តិចម្ដងៗ",
+    "expected": "bɑntəch mdɑɑng bɑntəch mdɑɑng",
+    "actual": "bântĕchmdâng bântĕchmdâng",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "បន្ទាលត្រអាក",
+    "expected": "bɑntiel trɑ’aak",
+    "actual": "bântéaltrâʼak",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ប៉ុន្មាន",
+    "expected": "bpon-mān?",
+    "actual": "bŏnméan",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ប៉ុម",
+    "expected": "pom",
+    "actual": "bŏm",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ប៉ុស្តិ៍",
+    "expected": "poh",
+    "actual": "bŏstិ៍",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ប៉េនីស៊ីលីន",
+    "expected": "pâyniseelin",
+    "actual": "bénisilin",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "បានជា",
+    "expected": "baa nɔɔ jie",
+    "actual": "banchéa",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "បានទេ",
+    "expected": "baa-nɔɔ tee",
+    "actual": "banté",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "បាបចិត្ត",
+    "expected": "baapaʔcət",
+    "actual": "babchĕtt",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "បាយ",
+    "expected": "bāy",
+    "actual": "bay",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "បាយកក",
+    "expected": "bāy kɔːk",
+    "actual": "baykâk",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "បាយក្ដាំង",
+    "expected": "bāy kdang",
+    "actual": "baykdăng",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "បាយក្រៀម",
+    "expected": "bāy kriem",
+    "actual": "baykriĕm",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "បាយចំហុយ",
+    "expected": "bāy chamhoy",
+    "actual": "baychâmhŏy",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "បាយឆៅ",
+    "expected": "bāy chav",
+    "actual": "baychhau",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "បារី",
+    "expected": "baray",
+    "actual": "bari",
+    "differsAt": 4,
+    "passed": false
+  },
+  {
+    "raw": "បី",
+    "expected": "bei",
+    "actual": "bei",
+    "differsAt": 0,
+    "passed": true
+  },
+  {
+    "raw": "បឹង",
+    "expected": "böng",
+    "actual": "bœ̆ng",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "បុណ្យវិសាខបូជា",
+    "expected": "bon visak bochéa",
+    "actual": "bŏnyâvĭsakhbochéa",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "បួន",
+    "expected": "buən",
+    "actual": "buŏn",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "បើ",
+    "expected": "baə",
+    "actual": "baeu",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "បើក",
+    "expected": "baek",
+    "actual": "baeuk",
+    "differsAt": 4,
+    "passed": false
+  },
+  {
+    "raw": "បេះដូង",
+    "expected": "beh dooŋ",
+    "actual": "béhdong",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "បោកចំបាប់",
+    "expected": "baok chɑmbap",
+    "actual": "baôkchâmbab",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ប្រដាល់សេរី",
+    "expected": "prɑdal seɛrǝy",
+    "actual": "brâdalséri",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ប្រទេស",
+    "expected": "bprədtēh",
+    "actual": "brâtés",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ប្រទេសកម្ពុជា",
+    "expected": "bprədtēh gəmbpŭjīə",
+    "actual": "brâtéskâmpŭchéa",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ប្រទេសកំណើត",
+    "expected": "bprədtēh kɑmnaət",
+    "actual": "brâtéskâmnaeut",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ប្រទេសថៃ",
+    "expected": "bprədtēh tai",
+    "actual": "brâtésthai",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ប្រទេសភូមា",
+    "expected": "prɑteih pʰuumie",
+    "actual": "brâtésphuméa",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ប្រទេសមីយ៉ាន់ម៉ា",
+    "expected": "bprədtēh mīyānmā",
+    "actual": "brâtésmiyanma",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ប្រទេសរុស្ស៊ី",
+    "expected": "bprədtēh ruhsii",
+    "actual": "brâtésrŭssi",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ប្រទេសលាវ",
+    "expected": "bprədtēh līew",
+    "actual": "brâtésléav",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ប្រទេសវៀតណាម",
+    "expected": "bprədtēh wīət nām",
+    "actual": "brâtésviĕtnam",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ប្រទេសសៀម",
+    "expected": "bprədtēh sīəm",
+    "actual": "brâtéssiĕm",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ប្រទេសអង់គ្លេស",
+    "expected": "prɑteeh ɑngkleeh",
+    "actual": "brâtésʼângklés",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ប្រព័ន្ធ",
+    "expected": "prɑpoan",
+    "actual": "brâpônth",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ប្រព័ន្ធព្រះអាទិត្យ",
+    "expected": "prɑpoan preah aatɨt",
+    "actual": "brâpônthôpreăhʼatĭty",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ប្រមូល",
+    "expected": "prɑmool",
+    "actual": "brâmul",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ប្រសើរ",
+    "expected": "prɑsaə",
+    "actual": "brâsaeur",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ប្រហែល",
+    "expected": "prɑhael",
+    "actual": "brâhêl",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ប្រអប់",
+    "expected": "prɑ’ɑp",
+    "actual": "brâʼâb",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ប្រាក់",
+    "expected": "prak",
+    "actual": "brak",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ប្រាក់ខែ",
+    "expected": "prākkhae",
+    "actual": "brakkhê",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ប្រាក់ចំណូល",
+    "expected": "prāk chamnōl",
+    "actual": "brakchâmnol",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ប្រាក់បំណុល",
+    "expected": "prāk bɑmnol",
+    "actual": "brakbâmnŏl",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ប្រាជ្ញ",
+    "expected": "praach",
+    "actual": "brachnh",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ប្រាជ្ញា",
+    "expected": "praachñaa",
+    "actual": "brachnhéa",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ប្រាណ",
+    "expected": "praan",
+    "actual": "bran",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ប្រាសាទ",
+    "expected": "praasaat",
+    "actual": "brasat",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ប្រាសាទអង្គរវត្ត",
+    "expected": "praasaat ɑngkɔɔ voat",
+    "actual": "brasatʼângkôrôvttâ",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ប្រាំ",
+    "expected": "prăm",
+    "actual": "brăm",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ប្រាំបី",
+    "expected": "pram bəi",
+    "actual": "brămbei",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ប្រាំបួន",
+    "expected": "pram buən",
+    "actual": "brămbuŏn",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ប្រាំពីរ",
+    "expected": "pram pī, pram peul",
+    "actual": "brămpir",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ប្រាំមួយ",
+    "expected": "pram muəy",
+    "actual": "brămmuŏy",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ប្រុងស្នៀត",
+    "expected": "prong sniǝt",
+    "actual": "brŏngsniĕt",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ប្រុស",
+    "expected": "proh",
+    "actual": "brŏs",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ប្រែភាសា",
+    "expected": "prae pīăsā",
+    "actual": "brêphéasa",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ប្អូន",
+    "expected": "bpaōn",
+    "actual": "bʼon",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "បំបែក",
+    "expected": "bɑmbaek",
+    "actual": "bâmbêk",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "បំព្រាង",
+    "expected": "bɑmprieŋ",
+    "actual": "bâmpréang",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ផល",
+    "expected": "phal",
+    "actual": "phâl",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ផល្លា",
+    "expected": "pʰalla",
+    "actual": "phâlléa",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ផែន",
+    "expected": "pʰaen",
+    "actual": "phên",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ផ្កា",
+    "expected": "pkā",
+    "actual": "phka",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ផ្កាយ",
+    "expected": "pgai",
+    "actual": "phkay",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ផ្គរ",
+    "expected": "pkɔɔ",
+    "actual": "phkôr",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ផ្ទះ",
+    "expected": "pteah",
+    "actual": "phteăh",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ផ្លាស់ប្ដូរ",
+    "expected": "plah-pdoo",
+    "actual": "phlasbdor",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ផ្លូវការ",
+    "expected": "pləvkā",
+    "actual": "phlovkar",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ផ្លេកបន្ទោរ",
+    "expected": "pleɛk bɑntou",
+    "actual": "phlékbântoŭr",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ផ្លែ",
+    "expected": "phlae",
+    "actual": "phlê",
+    "differsAt": 4,
+    "passed": false
+  },
+  {
+    "raw": "ផ្សងព្រេង",
+    "expected": "psɑɑng preeng",
+    "actual": "phsângôpréng",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ផ្សារ",
+    "expected": "psaa",
+    "actual": "phsar",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ផ្សិត",
+    "expected": "pseut",
+    "actual": "phsĕt",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ផ្សែង",
+    "expected": "psaing",
+    "actual": "phsêng",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ពង",
+    "expected": "pɔɔng",
+    "actual": "pông",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ពញា",
+    "expected": "pnyie",
+    "actual": "pônhéa",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ពណ៌",
+    "expected": "poa",
+    "actual": "ពណ៌",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ពត៌មាន",
+    "expected": "boadaameeun",
+    "actual": "ពត៌méan",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ពន្លឺ",
+    "expected": "pʊənlɨɨ",
+    "actual": "pônlœ",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ពពក",
+    "expected": "bpobpok",
+    "actual": "pôpôk",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ពស់",
+    "expected": "bpūah",
+    "actual": "pôs",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ពាក្យ",
+    "expected": "piek",
+    "actual": "péaky",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ពាក្យក្លាយ",
+    "expected": "piek klaay",
+    "actual": "péakyâklay",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ពាក្យឬស",
+    "expected": "piek rɨɨh",
+    "actual": "péakyrœsâ",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ពាក្យសំដី",
+    "expected": "bpīək somdēi",
+    "actual": "péakyâsâmdei",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ពាល",
+    "expected": "piel",
+    "actual": "péal",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ពាំង",
+    "expected": "bpēiəng",
+    "actual": "peăng",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ពិឃាត",
+    "expected": "pi-kʰiet",
+    "actual": "pĭkhéat",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ពិឃាតបូជា",
+    "expected": "pi’kʰiet boochie",
+    "actual": "pĭkhéatbochéa",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ពិណពាទ្យ",
+    "expected": "pɨn piet",
+    "actual": "pĭnpéaty",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ពិត",
+    "expected": "pɨt",
+    "actual": "pĭt",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ពិបាក",
+    "expected": "pi’baak",
+    "actual": "pĭbak",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ពី",
+    "expected": "pii",
+    "actual": "pi",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ពីណា",
+    "expected": "pii naa",
+    "actual": "pina",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ពីព្រោះ",
+    "expected": "bpi-bprūah",
+    "actual": "pipruŏh",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ពីរ",
+    "expected": "pī",
+    "actual": "pir",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ពុក",
+    "expected": "puk",
+    "actual": "pŭk",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ពុកចង្កា",
+    "expected": "puk cɑngkaa",
+    "actual": "pŭkchângka",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ពុទ្ធ",
+    "expected": "bpŭt",
+    "actual": "pŭtth",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ពួកម៉ាក",
+    "expected": "bpūək maak",
+    "actual": "puŏkmak",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ពោត",
+    "expected": "pout",
+    "actual": "poŭt",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ព្រលឹង",
+    "expected": "prɔlɨng",
+    "actual": "prôlœ̆ng",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ព្រៃ",
+    "expected": "pryj",
+    "actual": "prey",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ព្រៃនគរ",
+    "expected": "bprēī nokor",
+    "actual": "preynôkôr",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ព្រោះ",
+    "expected": "bprūah",
+    "actual": "pruŏh",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ព្រះ",
+    "expected": "preah",
+    "actual": "preăh",
+    "differsAt": 4,
+    "passed": false
+  },
+  {
+    "raw": "ព្រះច័ន្ទ",
+    "expected": "bprēiəh jən",
+    "actual": "preăhchânt",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ព្រះជាម្ចាស់",
+    "expected": "preah jie mchah",
+    "actual": "preăhchéamchas",
+    "differsAt": 4,
+    "passed": false
+  },
+  {
+    "raw": "ព្រះពុទ្ធ",
+    "expected": "bprēiəh bpŭt",
+    "actual": "preăhpŭtth",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ព្រះយេស៊ូ",
+    "expected": "preah yeisuu",
+    "actual": "preăhyésu",
+    "differsAt": 4,
+    "passed": false
+  },
+  {
+    "raw": "ព្រះរាជាណាចក្រកម្ពុជា",
+    "expected": "bprēəh réachéanachəkr gəmbpŭjīə",
+    "actual": "preăhréachéanachkrâkâmpŭchéa",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ព្រះវររាជបិតា",
+    "expected": "preah vɔɔ riechi bəydaa",
+    "actual": "preăhvôrôréachbĕta",
+    "differsAt": 4,
+    "passed": false
+  },
+  {
+    "raw": "ព្រះវររាជមាតា",
+    "expected": "preah vɔɔ riechi miedaa",
+    "actual": "preăhvôrôréachméata",
+    "differsAt": 4,
+    "passed": false
+  },
+  {
+    "raw": "ព្រះវររាជអយ្យកា",
+    "expected": "preah vɔɔ riechi ayyeakaa",
+    "actual": "preăhvôrôréachʼâyyôka",
+    "differsAt": 4,
+    "passed": false
+  },
+  {
+    "raw": "ព្រះអង្គម្ចាស់",
+    "expected": "preah ’ɑng mchah",
+    "actual": "preăhʼângkômchas",
+    "differsAt": 4,
+    "passed": false
+  },
+  {
+    "raw": "ព័ត៌មាន",
+    "expected": "poatamien",
+    "actual": "ព័ត៌méan",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ព័រទុយហ្គាល់",
+    "expected": "poatuykoal",
+    "actual": "pôrtŭygéal",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ភក់",
+    "expected": "pʰʊək",
+    "actual": "phôk",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ភព",
+    "expected": "pʰup",
+    "actual": "phôp",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ភាព",
+    "expected": "pʰiep",
+    "actual": "phéap",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ភាពគង់មាន",
+    "expected": "pʰiep kʊəŋ mien",
+    "actual": "phéapkôngméan",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ភាសា",
+    "expected": "pʰiesaa",
+    "actual": "phéasa",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ភាសាកូរ៉េ",
+    "expected": "pīăsā kō rē",
+    "actual": "phéasakoré",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ភាសាខ្មែរ",
+    "expected": "phiesaa kmae",
+    "actual": "phéasakhmêr",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ភាសាចិន",
+    "expected": "pīăsā cən",
+    "actual": "phéasachĕn",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ភាសាជប៉ុន",
+    "expected": "pīəsā jipun",
+    "actual": "phéasachbŏn",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ភាសាថៃ",
+    "expected": "pʰiesaa tai",
+    "actual": "phéasathai",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ភាសាបារាំង",
+    "expected": "pīăsā baarung",
+    "actual": "phéasabareăng",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ភាសាផ្លូវការ",
+    "expected": "pīăsā pləv kā",
+    "actual": "phéasaphlovkar",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ភាសារុស្ស៊ី",
+    "expected": "pʰiesaa rūssī",
+    "actual": "phéasarŭssi",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ភាសាលាវ",
+    "expected": "pʰiesaa līew",
+    "actual": "phéasaléav",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ភាសាវិទូ",
+    "expected": "pīăsā vitū",
+    "actual": "phéasavĭtu",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ភាសាវៀតណាម",
+    "expected": "pʰiesaa wīət-nām",
+    "actual": "phéasaviĕtnam",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ភាសាសាស្ត្រ",
+    "expected": "pīăsā sāh",
+    "actual": "phéasasastrâ",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ភាសាអង់គ្លេស",
+    "expected": "pʰiesaa ɑngkleeh",
+    "actual": "phéasaʼងគ្លេស",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ភាសាអ៊ីតាលី",
+    "expected": "pīəsā ītālī",
+    "actual": "phéasaʼitali",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ភូមរាវិទ្យា",
+    "expected": "pʰuumraavityie",
+    "actual": "phumréavĭtyéa",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ភូមិ",
+    "expected": "pūm",
+    "actual": "phumĭ",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ភូមិសាស្ដ្រ",
+    "expected": "pʰuum saah",
+    "actual": "phumĭsasdrâ",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ភោគសម្ប័ទ",
+    "expected": "pʰook sɑmbat",
+    "actual": "phoŭksâmbât",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ភ្នែក",
+    "expected": "pnɛɛk",
+    "actual": "phnêk",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ភ្នំ",
+    "expected": "pnŭm",
+    "actual": "phnum",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ភ្នំពេញ",
+    "expected": "pnŭṁ bpeuñ",
+    "actual": "phnumpénh",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ភ្លើង",
+    "expected": "pləəng",
+    "actual": "phleung",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ភ្លៀង",
+    "expected": "plieng",
+    "actual": "phliĕng",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ភ្លេច",
+    "expected": "plɨch",
+    "actual": "phléch",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ភ្លែត",
+    "expected": "plairt",
+    "actual": "phlêt",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "មក",
+    "expected": "mɔɔk",
+    "actual": "môk",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "មករា",
+    "expected": "meykgărā",
+    "actual": "môkâréa",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "មន",
+    "expected": "mɔɔn",
+    "actual": "môn",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "មនុស្ស",
+    "expected": "mɔnuh, mɔnɨh",
+    "actual": "mônŭss",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ម៉ាត់",
+    "expected": "mat",
+    "actual": "mat",
+    "differsAt": 0,
+    "passed": true
+  },
+  {
+    "raw": "ម៉ាស៊ីន",
+    "expected": "maasɨn",
+    "actual": "masin",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ម៉ាឡេស៊ី",
+    "expected": "Maleizi",
+    "actual": "malési",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ម៉ូតូ",
+    "expected": "",
+    "actual": "moto",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ម៉ែ",
+    "expected": "mai",
+    "actual": "mê",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ម៉ោង",
+    "expected": "maong",
+    "actual": "maông",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "មាតុប្រទេស",
+    "expected": "mieto bprədtēh",
+    "actual": "méatŏbrâtés",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "មាន",
+    "expected": "mien",
+    "actual": "méan",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "មាន់",
+    "expected": "moan",
+    "actual": "méan",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "មិត្ត",
+    "expected": "mɨt",
+    "actual": "mĭtt",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "មិថុនា",
+    "expected": "mitonā",
+    "actual": "mĭthŏnéa",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "មិន",
+    "expected": "mɨn",
+    "actual": "mĭn",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "មិន...ទេ",
+    "expected": "min … teː",
+    "actual": "mĭn...té",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "មិនគឺទេ",
+    "expected": "min geu teː",
+    "actual": "mĭnkœté",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "មិនជាទេ",
+    "expected": "min jīə teː",
+    "actual": "mĭnchéaté",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "មិនជឿទេ",
+    "expected": "mɨn jɨə tei",
+    "actual": "mĭncheuaté",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "មីនា",
+    "expected": "mīnīă",
+    "actual": "minéa",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "មីយ៉ាន់ម៉ា",
+    "expected": "miiyanmaa",
+    "actual": "miyanma",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "មុខ",
+    "expected": "mŭkh",
+    "actual": "mŭkh",
+    "differsAt": 0,
+    "passed": true
+  },
+  {
+    "raw": "មុន",
+    "expected": "mʊn",
+    "actual": "mŭn",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "មុនគេ",
+    "expected": "mun kee",
+    "actual": "mŭnké",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "មួក",
+    "expected": "mūək",
+    "actual": "muŏk",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "មួយ",
+    "expected": "muəy",
+    "actual": "muŏy",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "មួយពាន់",
+    "expected": "muŏy poăn",
+    "actual": "muŏypéan",
+    "differsAt": 5,
+    "passed": false
+  },
+  {
+    "raw": "មួយម៉ឺន",
+    "expected": "muŏy mein",
+    "actual": "muŏymœn",
+    "differsAt": 5,
+    "passed": false
+  },
+  {
+    "raw": "មួយរយ",
+    "expected": "muəy roy",
+    "actual": "muŏyrôy",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "មួយលាន",
+    "expected": "muŏy léan",
+    "actual": "muŏyléan",
+    "differsAt": 5,
+    "passed": false
+  },
+  {
+    "raw": "មួយសែន",
+    "expected": "muŏy sên",
+    "actual": "muŏysên",
+    "differsAt": 5,
+    "passed": false
+  },
+  {
+    "raw": "មេឃ",
+    "expected": "meek",
+    "actual": "mékh",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "មេត្រីភាព",
+    "expected": "meetrəy pʰiep",
+    "actual": "métreiphéap",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "មេសា",
+    "expected": "meysā",
+    "actual": "mésa",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "មេអំបៅ",
+    "expected": "mēi-ombao",
+    "actual": "méʼâmbau",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ម្ចាស់",
+    "expected": "mchah",
+    "actual": "mchas",
+    "differsAt": 5,
+    "passed": false
+  },
+  {
+    "raw": "ម្ដង",
+    "expected": "mdɑɑng",
+    "actual": "mdâng",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ម្ដងទៀត",
+    "expected": "mdɑɑng tiet",
+    "actual": "mdângôtiĕt",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ម្ដាយ",
+    "expected": "mdai",
+    "actual": "mday",
+    "differsAt": 4,
+    "passed": false
+  },
+  {
+    "raw": "ម្ភៃ",
+    "expected": "mpʰey",
+    "actual": "mphey",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ម្រេច",
+    "expected": "mric",
+    "actual": "mréch",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ម្ហូប",
+    "expected": "mhōp",
+    "actual": "mhob",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "យល់",
+    "expected": "yūəl",
+    "actual": "yôl",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "យានដ្ឋាន",
+    "expected": "yienɔttʰaan",
+    "actual": "yéandthan",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "យាយ",
+    "expected": "yiey",
+    "actual": "yéay",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "យុត្តិធម៌",
+    "expected": "yutte’-tʰoa",
+    "actual": "yŭttĕthម៌",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "យេស៊ូគ្រិស្ត",
+    "expected": "yeisuu krɨh",
+    "actual": "yésukrĭst",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "យោនី",
+    "expected": "younii",
+    "actual": "yoŭni",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ឬ",
+    "expected": "rɨɨ",
+    "actual": "rœ",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "រក",
+    "expected": "rɔɔk, rɔɔ",
+    "actual": "rôk",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "រក...ឃើញ",
+    "expected": "rɔɔk, rɔɔ ... kʰəəñ",
+    "actual": "rôk...kheunh",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "រងា",
+    "expected": "rəŋīə",
+    "actual": "rôngéa",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "រដ្ឋ",
+    "expected": "rōŭt",
+    "actual": "rôdthâ",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "រដ្ឋធានី",
+    "expected": "rōəttətīənī",
+    "actual": "rôdthâthéani",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "រទេះកង់",
+    "expected": "radtayh gong",
+    "actual": "rôtéhkâng",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "របស់",
+    "expected": "raboh",
+    "actual": "rôbâs",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "របស់ខ្ញុំ",
+    "expected": "raboh knyom",
+    "actual": "rôbâskhnhom",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "របស់លោក",
+    "expected": "raboh lōk",
+    "actual": "rôbâsloŭk",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ឫស",
+    "expected": "rɨh",
+    "actual": "rœ̆sâ",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "រសាយនវិទ្យា",
+    "expected": "reasaayanavityie",
+    "actual": "rôsaynôvĭtyéa",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "រស់",
+    "expected": "rʊəh",
+    "actual": "rôs",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "រហូត",
+    "expected": "rahoat",
+    "actual": "rôhot",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "រាជ",
+    "expected": "riech",
+    "actual": "réach",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "រាជធានី",
+    "expected": "rīichtīənī",
+    "actual": "réachthéani",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "រាប",
+    "expected": "rīəp",
+    "actual": "réab",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "រាវ",
+    "expected": "reav",
+    "actual": "réav",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "រាសី",
+    "expected": "riesəy",
+    "actual": "réasei",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "រុក្ខជាតិ",
+    "expected": "rukkha chiet",
+    "actual": "rŭkkhâchéatĕ",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "រុយ",
+    "expected": "ruj",
+    "actual": "rŭy",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "រុស្ស៊ី",
+    "expected": "ruhsii",
+    "actual": "rŭssi",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "រុស្សី",
+    "expected": "ruhsii",
+    "actual": "rŭssei",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "រូប",
+    "expected": "ruup",
+    "actual": "rub",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "រូបធាតុ",
+    "expected": "ruup tʰiet",
+    "actual": "rubthéatŏ",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "រូបសាស្ដ្រ",
+    "expected": "ruupsaah",
+    "actual": "rubsasdrâ",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "រូបិយវត្ថុ",
+    "expected": "ruupəyyea voattʰo",
+    "actual": "rubĕyvôtthŏ",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "រូបិយវត្ថុរុស្សី",
+    "expected": "ruupəyyea voattʰo ruhsii",
+    "actual": "rubĕyvôtthŏrŭssei",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "រឿង",
+    "expected": "rɨəng",
+    "actual": "reuang",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "រៀន",
+    "expected": "rīən",
+    "actual": "riĕn",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "រៀល",
+    "expected": "riəl",
+    "actual": "riĕl",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "លក្ស្មី",
+    "expected": "leaksməy",
+    "actual": "lôksmei",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "លាវ",
+    "expected": "līew",
+    "actual": "léav",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "លាវ័ណ្យ",
+    "expected": "lievoan",
+    "actual": "léavôny",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "លិង្គ",
+    "expected": "lɨng",
+    "actual": "lĭngk",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "លី",
+    "expected": "lee",
+    "actual": "li",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "លីឡ្នា",
+    "expected": "liilhaa",
+    "actual": "lilna",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "លុន",
+    "expected": "lun",
+    "actual": "lŭn",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "លុប",
+    "expected": "lup",
+    "actual": "lŭb",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "លើ",
+    "expected": "ləə",
+    "actual": "leu",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "លេប",
+    "expected": "leip",
+    "actual": "léb",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "លោក",
+    "expected": "louk",
+    "actual": "loŭk",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "លោកខែ",
+    "expected": "lōk kai",
+    "actual": "loŭkkhê",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "លោកស្រី",
+    "expected": "lōk sray",
+    "actual": "loŭksrei",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "លោកអ្នកឧកញ៉ា",
+    "expected": "louk neak ʔokɲaa",
+    "actual": "loŭkʼnâkʼŏkânha",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ល្ងង់",
+    "expected": "lngʊəng",
+    "actual": "lngông",
+    "differsAt": 4,
+    "passed": false
+  },
+  {
+    "raw": "ល្បុក្កតោ",
+    "expected": "lbok tao",
+    "actual": "lbŏkkâtaô",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ល្អ",
+    "expected": "l’ɑɑ",
+    "actual": "lʼâ",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "លំអ",
+    "expected": "lum’ɑɑ",
+    "actual": "lumʼâ",
+    "differsAt": 4,
+    "passed": false
+  },
+  {
+    "raw": "វចនានុក្រម",
+    "expected": "wachanānūgrom",
+    "actual": "vôchânéanŭkrâm",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "វចនានុក្រមវិគី",
+    "expected": "wachanānūgrom-vikī",
+    "actual": "vôchânéanŭkrâmôvĭki",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "វត្ត",
+    "expected": "wōat",
+    "actual": "vôttâ",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "វាយតប់",
+    "expected": "wīē-dtop",
+    "actual": "véaytâb",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "វារ",
+    "expected": "vīə",
+    "actual": "véar",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "វាល",
+    "expected": "viel",
+    "actual": "véal",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "វាលពិឃាត",
+    "expected": "viel pi-kʰiet",
+    "actual": "véalpĭkhéat",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "វាសនា",
+    "expected": "wee-a-sanaa",
+    "actual": "véasnéa",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "វិគី",
+    "expected": "vikī",
+    "actual": "vĭki",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "វិគីនានុក្រម",
+    "expected": "vikī-nānūgrom",
+    "actual": "vĭkinéanŭkrâm",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "វិគីភីឌា",
+    "expected": "vikiiphiidiaa",
+    "actual": "vĭkiphidéa",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "វិច្ឆិកា",
+    "expected": "weuchăgā",
+    "actual": "vĭchchhĕka",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "វិញ",
+    "expected": "vɨñ",
+    "actual": "vĭnh",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "វិទ្យា",
+    "expected": "vityie",
+    "actual": "vĭtyéa",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "វិទ្យាសាស្ត្រ",
+    "expected": "wityīə sāh",
+    "actual": "vĭtyéasastrâ",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "វិនាទី",
+    "expected": "vi’nietii",
+    "actual": "vĭnéati",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "វៀងច័ន្ទន៍",
+    "expected": "wiang jan",
+    "actual": "viĕngchântôn៍",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "វៀតណាម",
+    "expected": "wīət nām",
+    "actual": "viĕtnam",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ស",
+    "expected": "sɑɑ",
+    "actual": "sâ",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "សក្តិ",
+    "expected": "sak",
+    "actual": "sâktĕ",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "សក់",
+    "expected": "sɑk",
+    "actual": "sâk",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "សង្គ្រាម",
+    "expected": "songkrīəm",
+    "actual": "sângkréam",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "សង្គ្រាមលោក",
+    "expected": "songkreeum saagoloak",
+    "actual": "sângkréamloŭk",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "សង្គ្រាមលោកលើកទី១",
+    "expected": "songkreeum saagoloak dee mooay",
+    "actual": "sângkréamloŭkleukti1",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "សង្គ្រាមលោកលើកទី២",
+    "expected": "songkreeum saagoloak dee pee",
+    "actual": "sângkréamloŭkleukti2",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "សង្ឃឹម",
+    "expected": "sɑngkʰɨm",
+    "actual": "sângkhœ̆m",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "សង្សារ",
+    "expected": "sɑngsaa",
+    "actual": "sângsar",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "សញ្ជាតិ",
+    "expected": "sañciet, sañciete’",
+    "actual": "sânhchéatĕ",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "សតិ",
+    "expected": "sa’te’",
+    "actual": "sâtĕ",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "សត្វ",
+    "expected": "sāt",
+    "actual": "sâtvâ",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "សត្វព្រៃ",
+    "expected": "sāt prəy",
+    "actual": "sâtvâprey",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "សត្វល្អិត",
+    "expected": "sat l’ǝt",
+    "actual": "sâtvâlʼĕt",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "សន្ដិភាព",
+    "expected": "sɑnte’ pʰiep",
+    "actual": "sândĕphéap",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "សន្តិភាព",
+    "expected": "sɑnte pʰiep",
+    "actual": "sântĕphéap",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "សន្លឹក",
+    "expected": "sɑnlək",
+    "actual": "sânlœ̆k",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "សប្បាយ",
+    "expected": "sapbaay",
+    "actual": "sâbbay",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "សព្វនាម",
+    "expected": "sɑp niem",
+    "actual": "sâpvônéam",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "សមុទ្រ",
+    "expected": "səmɔt",
+    "actual": "sâmŭtr",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "សម្បត្តិ",
+    "expected": "sɑmbat",
+    "actual": "sâmbâttĕ",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "សម្រស់",
+    "expected": "sɑmrɑh",
+    "actual": "sâmrôs",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "សម្រាប់",
+    "expected": "sɑmrap",
+    "actual": "sâmréab",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "សម្លាប់",
+    "expected": "somləp",
+    "actual": "sâmléab",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "សម្លេង",
+    "expected": "sɑmlayng",
+    "actual": "sâmléng",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "សរសេរ",
+    "expected": "sorsay",
+    "actual": "sârôsér",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "សហ",
+    "expected": "sahā",
+    "actual": "sâh",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "សហភាពសូវៀត",
+    "expected": "sahapʰiep sooviet",
+    "actual": "sâhâphéapsoviĕt",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "សហរដ្ឋអាមេរិក",
+    "expected": "sahā rōŭt āmērik",
+    "actual": "sâhârdthâʼamérĭk",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ស៊ីដា",
+    "expected": "sīdā",
+    "actual": "sida",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ស៊ុត",
+    "expected": "sut",
+    "actual": "sŭt",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ស៊ុយ",
+    "expected": "suy",
+    "actual": "sŭy",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "សាច់មាន់",
+    "expected": "sach mean",
+    "actual": "sachméan",
+    "differsAt": 5,
+    "passed": false
+  },
+  {
+    "raw": "សាប៊ូ",
+    "expected": "sāpū",
+    "actual": "sabu",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "សាមគ្គី",
+    "expected": "saameakkii",
+    "actual": "samkki",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "សាមសិប",
+    "expected": "saam səp",
+    "actual": "samsĕb",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "សាលា",
+    "expected": "saalaa",
+    "actual": "saléa",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "សាលាក្តី",
+    "expected": "sālā kdəy",
+    "actual": "saléaktei",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "សាលាក្រុង",
+    "expected": "sālā krong",
+    "actual": "saléakrŏng",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "សាលាខេត្ត",
+    "expected": "sālā khaet",
+    "actual": "saléakhétt",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "សាលាឃុំ",
+    "expected": "sālā khum",
+    "actual": "saléakhŭm",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "សាលាជំនុំជំរះ",
+    "expected": "saalaa jumnum jumreah",
+    "actual": "saléachumnŭmchumreăh",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "សាលារៀន",
+    "expected": "saalaa riən",
+    "actual": "saléariĕn",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "សាសនា",
+    "expected": "saasnaa",
+    "actual": "sasnéa",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "សាស្ត្រ",
+    "expected": "saah",
+    "actual": "sastrâ",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "សិក្សា",
+    "expected": "ṡiksā",
+    "actual": "sĕksa",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "សិរិ",
+    "expected": "se’rəy",
+    "actual": "sĕrĭ",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "សិស្ស",
+    "expected": "səh",
+    "actual": "sĕss",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "សីហា",
+    "expected": "seyhā",
+    "actual": "seiha",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "សឹង្ហ",
+    "expected": "seung",
+    "actual": "sœ̆ngh",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "សឹម",
+    "expected": "səm",
+    "actual": "sœ̆m",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "សឹមៗ",
+    "expected": "səm-səm",
+    "actual": "sœ̆msœ̆m",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "សុខ",
+    "expected": "sok",
+    "actual": "sŏkh",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "សុទ្ឋាវាស",
+    "expected": "sottʰievieh",
+    "actual": "sŏtthavéas",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "សុទ្ធ",
+    "expected": "sot",
+    "actual": "sŏtth",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "សុប្រាត",
+    "expected": "so’praat",
+    "actual": "sŏbrat",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "សុភមង្គល",
+    "expected": "so’pʰea’ meangkʊəl",
+    "actual": "sŏphmôngkôl",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "សូន្យ",
+    "expected": "sōn",
+    "actual": "sony",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "សួស្ដី",
+    "expected": "soədəy",
+    "actual": "suŏsdei",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "សៀម",
+    "expected": "sīəm",
+    "actual": "siĕm",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "សៀមរាប",
+    "expected": "siem riep",
+    "actual": "siĕmréab",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "សៀវភៅ",
+    "expected": "sīəwpıw",
+    "actual": "siĕvphŏu",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "សេក",
+    "expected": "sek",
+    "actual": "sék",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "សេចក្ដីស្រឡាញ់",
+    "expected": "səchkdəy srɑlañ",
+    "actual": "séchkdeisrâlanh",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "សេចក្តីខ្លាច",
+    "expected": "saych gday klaich",
+    "actual": "séchkteikhlach",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "សេព",
+    "expected": "saep",
+    "actual": "sép",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "សេរីភាព",
+    "expected": "seɛrǝy pʰiep",
+    "actual": "sériphéap",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "សេះ",
+    "expected": "seh",
+    "actual": "séh",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "សែន",
+    "expected": "saen",
+    "actual": "sên",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "សោភ័ណ",
+    "expected": "saopʰoan",
+    "actual": "saôphôn",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "សោយទិវង្គត",
+    "expected": "saoy ti’vʊəngkʊət",
+    "actual": "saôytĭvngkôt",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ស្ដាយ",
+    "expected": "sdaay",
+    "actual": "sday",
+    "differsAt": 4,
+    "passed": false
+  },
+  {
+    "raw": "ស្ដេច",
+    "expected": "sdach",
+    "actual": "sdéch",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ស្ដៅ",
+    "expected": "sdav",
+    "actual": "sdau",
+    "differsAt": 4,
+    "passed": false
+  },
+  {
+    "raw": "ស្ត្រី",
+    "expected": "strəy, sa’trəy",
+    "actual": "sâtrei",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ស្នេហា",
+    "expected": "snaehaa",
+    "actual": "snéha",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ស្ពាន",
+    "expected": "spīŭn",
+    "actual": "spéan",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ស្មារតីលះបង់",
+    "expected": "smaardəy leah bɑng",
+    "actual": "smarteileăhbâng",
+    "differsAt": 4,
+    "passed": false
+  },
+  {
+    "raw": "ស្មើ",
+    "expected": "smaə",
+    "actual": "smaeu",
+    "differsAt": 4,
+    "passed": false
+  },
+  {
+    "raw": "ស្មៅ",
+    "expected": "smav",
+    "actual": "smau",
+    "differsAt": 4,
+    "passed": false
+  },
+  {
+    "raw": "ស្រមោច",
+    "expected": "srə-məoch",
+    "actual": "srâmoŭch",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ស្រលាញ់",
+    "expected": "sraluñ",
+    "actual": "srâléanh",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ស្រឡាញ់",
+    "expected": "sraluñ",
+    "actual": "srâlanh",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ស្រឡៃ",
+    "expected": "srɑlay",
+    "actual": "srâlai",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ស្រី",
+    "expected": "srǝy",
+    "actual": "srei",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ស្រីញី",
+    "expected": "srǝy-ñii",
+    "actual": "sreinhi",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ស្រីស្នំ",
+    "expected": "srǝy snɑm",
+    "actual": "sreisnâm",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ស្រុក",
+    "expected": "srok",
+    "actual": "srŏk",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ស្រុកកំពង់ស្វាយ",
+    "expected": "srok kɑmpʊəng svaay",
+    "actual": "srŏkkâmpôngsvay",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ស្រុកខ្មែរ",
+    "expected": "srok kmae",
+    "actual": "srŏkkhmêr",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ស្រុកវើនសៃ",
+    "expected": "srok vəən say",
+    "actual": "srŏkveunsai",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ស្រួល",
+    "expected": "sruəl",
+    "actual": "sruŏl",
+    "differsAt": 4,
+    "passed": false
+  },
+  {
+    "raw": "ស្លាបព្រា",
+    "expected": "slabaprea",
+    "actual": "slabpréa",
+    "differsAt": 5,
+    "passed": false
+  },
+  {
+    "raw": "ស្លាប់",
+    "expected": "slap",
+    "actual": "slab",
+    "differsAt": 4,
+    "passed": false
+  },
+  {
+    "raw": "ស្វាគមន៍",
+    "expected": "swagum",
+    "actual": "svakmôn៍",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ស្វាហៈ",
+    "expected": "svaaha'",
+    "actual": "svahaʼ",
+    "differsAt": 4,
+    "passed": false
+  },
+  {
+    "raw": "ស្អី",
+    "expected": "s’əy",
+    "actual": "sʼei",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "សំណាងល្អ",
+    "expected": "sɑmnaang l’ɑɑ",
+    "actual": "sâmnanglʼâ",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "សំបុត្រ",
+    "expected": "sombot",
+    "actual": "sâmbŏtr",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "សំរស់",
+    "expected": "sɑmrɑh",
+    "actual": "sâmrôs",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ហនុមាន",
+    "expected": "ha’nu’maan",
+    "actual": "hânŭméan",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ហាង",
+    "expected": "hāng",
+    "actual": "hang",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ហាងសៀវភៅ",
+    "expected": "hāng sīəwpıw",
+    "actual": "hangsiĕvphŏu",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ហុងកុង",
+    "expected": "hong kong",
+    "actual": "hŏngkŏng",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ហើយ",
+    "expected": "haəy",
+    "actual": "haeuy",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ហេតុ",
+    "expected": "hait",
+    "actual": "hétŏ",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ហេតុអ្វី",
+    "expected": "hait ēi",
+    "actual": "hétŏʼvei",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ហ្លួង",
+    "expected": "luəng",
+    "actual": "luŏng",
+    "differsAt": 3,
+    "passed": false
+  },
+  {
+    "raw": "ហ្វេសប៊ុក",
+    "expected": "fees buk",
+    "actual": "fésbŭk",
+    "differsAt": 2,
+    "passed": false
+  },
+  {
+    "raw": "ឳ",
+    "expected": "’əv",
+    "actual": "ʼâu",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ឧកញ៉ា",
+    "expected": "okɲaa",
+    "actual": "ʼŏkânha",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ឯកឧកញ៉ា",
+    "expected": "aek oknyaa",
+    "actual": "ʼéʼŏkâknha",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ឯកឧត្តម",
+    "expected": "aek utdɑm",
+    "actual": "ʼéʼŏkâttâm",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "អក្ខរក្រម",
+    "expected": "akkʰara krɑm",
+    "actual": "ʼâkkhârkrâm",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "អក្ខរក្រមខេមរភាសា",
+    "expected": "âkkhârâkrâm khémâraphéasa",
+    "actual": "ʼâkkhârkrâmôkhémrôphéasa",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "អក្សរ",
+    "expected": "aksɑɑ",
+    "actual": "ʼâksâr",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "អក្សរខម",
+    "expected": "aksɑɑ kʰɑɑm",
+    "actual": "ʼâksârôkhmô",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "អក្សរខ្មែរ",
+    "expected": "aksor kmae",
+    "actual": "ʼâksârôkhmêr",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "អក្សរមូល",
+    "expected": "aksɑɑ muul",
+    "actual": "ʼâksârômul",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "អគ្គីភ័យ",
+    "expected": "akkīphey",
+    "actual": "ʼâkkiphôy",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "អង្កែប",
+    "expected": "’ɑɑngkaep",
+    "actual": "ʼângkêb",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "អង្គ",
+    "expected": "’ɑng",
+    "actual": "ʼângkô",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "អង្គការ",
+    "expected": "ɑng kaa",
+    "actual": "ʼângkôkar",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "អង្គរ",
+    "expected": "’ɑngkɔɔ",
+    "actual": "ʼângkôr",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "អង្គរធំ",
+    "expected": "’ɑngkɔɔ tʰom",
+    "actual": "ʼângkôrôthum",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "អង្គរវត្ត",
+    "expected": "anggor wōat",
+    "actual": "ʼângkôrôvttâ",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "អង្គុយ",
+    "expected": "ɑngkuy",
+    "actual": "ʼângkŭy",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "អង់គ្លេស",
+    "expected": "ɑngkleeh",
+    "actual": "ʼângklés",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "អញ្ជើញ",
+    "expected": "əñjerñ",
+    "actual": "ʼânhcheunh",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ឥដ្ឋ",
+    "expected": "ət",
+    "actual": "ʼĕdthâ",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "អណ្ដូង",
+    "expected": "on-doang",
+    "actual": "ʼândong",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "អត្ថបទ",
+    "expected": "attʰa’ bɑt",
+    "actual": "ʼâtthâbât",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ឧទានស័ព្ទ",
+    "expected": "utien sap",
+    "actual": "ʼŏtéansâpt",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "អនន្ដភាព",
+    "expected": "anandapheeup",
+    "actual": "ʼânndâphéap",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "អនុគ្រោះ",
+    "expected": "’a’nu’krʊəh",
+    "actual": "ʼânŭkruŏh",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ឯនេះ",
+    "expected": "ae nih",
+    "actual": "ʼénéh",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ឧបទ្វីប",
+    "expected": "uˈpaˈtvīp",
+    "actual": "ʼŏbâtvib",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ឧបយុវរាជ",
+    "expected": "upayuveariech]",
+    "actual": "ʼŏbâyŭvréach",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ឧបរាជ",
+    "expected": "u’pa’raach",
+    "actual": "ʼŏbâréach",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ឧបាយកល",
+    "expected": "ubāy kol",
+    "actual": "ʼŏbaykâl",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "អប្សរា",
+    "expected": "apsa’raa",
+    "actual": "ʼâbsâréa",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ឪពុក",
+    "expected": "’əvpuk",
+    "actual": "ʼŏupŭk",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "អម្បូរភាសា",
+    "expected": "ambō pīăsā",
+    "actual": "ʼâmborphéasa",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "អរគុណ",
+    "expected": "ɑɑ kun",
+    "actual": "ʼârôkŭn",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "អរូបធាតុ",
+    "expected": "’a’ruup tʰiet",
+    "actual": "ʼârubthéatŏ",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ឦស",
+    "expected": "’iisa’",
+    "actual": "ʼeisâ",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "អសន្យាណូ",
+    "expected": "’a’sɑnyaanou",
+    "actual": "ʼâsânyéano",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "អសន្យាណូសារ",
+    "expected": "’a’sɑnyaanou saa",
+    "actual": "ʼâsânyéanosar",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ឧសភា",
+    "expected": "ŭsăpīă",
+    "actual": "ʼŏsâphéa",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ឦសាន",
+    "expected": "’əysaan",
+    "actual": "ʼeisan",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "អ-សារ",
+    "expected": "’a’-saa",
+    "actual": "ʼâ-sar",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ឧស្ម័ន",
+    "expected": "usman",
+    "actual": "ʼŏsmân",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "អ៊ីតាលី",
+    "expected": "ītālī",
+    "actual": "ʼitali",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "អ៊ីនធឺណិត",
+    "expected": "intʰɨɨnet",
+    "actual": "ʼinthœnĕt",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "អ៊ីមែល",
+    "expected": "’ii-mɛɛl",
+    "actual": "ʼimêl",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "អាកាស",
+    "expected": "aakaah",
+    "actual": "ʼakas",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "អាកាសយានដ្ឋាន",
+    "expected": "aakaah yiena-taan",
+    "actual": "ʼakasyéandthan",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "អាច",
+    "expected": "’aach",
+    "actual": "ʼach",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "អាចម៍",
+    "expected": "aach",
+    "actual": "ʼachm៍",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "អាទិត្យ",
+    "expected": "ādteut",
+    "actual": "ʼatĭty",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "អាទិទេព",
+    "expected": "aati’ teep",
+    "actual": "ʼatĭtép",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "អាមេរិក",
+    "expected": "’āmērik",
+    "actual": "ʼamérĭk",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "អាយុ",
+    "expected": "’āyʊ’",
+    "actual": "ʼayŭ",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "អាយុវែង",
+    "expected": "’aayu’ vɛɛng",
+    "actual": "ʼayŭvêng",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "អាល្លឺម៉ង់",
+    "expected": "āleumong",
+    "actual": "ʼallœmâng",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "អាស៊ី",
+    "expected": "asie",
+    "actual": "ʼasi",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "អាស៊ីអគ្នេយ៍",
+    "expected": "āsī āknē",
+    "actual": "ʼasiʼknéy៍",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "អាហារ",
+    "expected": "āhā",
+    "actual": "ʼahar",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "អាហារូបករណ៍",
+    "expected": "āhārūpaˈkɔː",
+    "actual": "ʼaharubkârn៍",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "អី",
+    "expected": "’əy",
+    "actual": "ʼei",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "អឺរ៉ូ",
+    "expected": "əɨroo",
+    "actual": "ʼœro",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "អូដ្ឋបូកពីរ",
+    "expected": "ʾoutboukpii",
+    "actual": "ʼodthâbokpir",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "អូន",
+    "expected": "oun",
+    "actual": "ʼon",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "អូស្ត្រាលី",
+    "expected": "oostraalii",
+    "actual": "ʼostrali",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "អេដស៍",
+    "expected": "ayd",
+    "actual": "ʼéds៍",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "អ្នក",
+    "expected": "neak",
+    "actual": "ʼnâk",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "អ្នកបកប្រែ",
+    "expected": "neak bɑɑk prae",
+    "actual": "ʼnâkâbkâbrê",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "អ្នកវិទ្យាសាស្ត្រ",
+    "expected": "nēək wityīə sāh",
+    "actual": "ʼnâkâvĭtyéasastrâ",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "អ្នកសម្លាប់",
+    "expected": "nay-uk somlup",
+    "actual": "ʼnâkâsmléab",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "អ្នកឧកញ៉ា",
+    "expected": "neak okɲaa",
+    "actual": "ʼnâkʼŏkânha",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ឱ្យ",
+    "expected": "aoy",
+    "actual": "ʼaô្yô",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "ឲ្យ",
+    "expected": "aoy",
+    "actual": "ʼaô្yô",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "អ្វី",
+    "expected": "’əvəy, əy",
+    "actual": "ʼvei",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "អ្វីៗ",
+    "expected": "’əvəy-’əvəy",
+    "actual": "ៗʼvei",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "អ្វីៗទាំងអស់",
+    "expected": "’əvəy-’əvəy teang ’ɑh",
+    "actual": "ៗអ្វីទាំngôʼâs",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "។ល។",
+    "expected": "",
+    "actual": "។។lô",
+    "differsAt": 1,
+    "passed": false
+  },
+  {
+    "raw": "៘",
+    "expected": "lɑ’, lɑ’nɨŋlɑ’",
+    "actual": "៘",
+    "differsAt": 1,
+    "passed": false
+  }
+]
