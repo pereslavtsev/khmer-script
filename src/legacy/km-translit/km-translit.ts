@@ -2,6 +2,10 @@ import { cons_conv, vowel_conv, indep_vowel, digraph, sp_symbols, char_type } fr
 import * as table from './table';
 import * as mw from '../mw';
 import * as sc from '../sc';
+// @ts-ignore
+import debug from 'debug';
+
+const libDebug = debug('km-translit');
 
 const toNFC = mw.ustring.toNFC;
 const gsub = mw.ustring.gsub;
@@ -10,7 +14,11 @@ const match = mw.ustring.match;
 const sub = mw.ustring.sub;
 
 export function tr(text: string) {
+  const trDebug = libDebug.extend(`${libDebug.namespace}:tr`);
+
   // TODO: if not sc then ...
+
+  trDebug('original text: %s, length: %d', text, text.length);
 
   text = sc.fixDiscouragedSequences(text);
   text = sc.toFixedNFD(text);
@@ -27,8 +35,12 @@ export function tr(text: string) {
     '%1​%2',
   );
   text = gsub(text, '(.៍)', '​%1');
+
+  trDebug('filtered text: %s, length: %d', text, text.length);
+
   // 143
   for (let word of mw.ustring.gmatch(text, '[ក-៝​]+')) {
+    const wordDebug = trDebug.extend(`word(${word})`);
     const original_text = word;
     let c = [],
       chartype = [],
@@ -41,31 +53,36 @@ export function tr(text: string) {
       chartype[i] = char_type[c[i]];
     }
 
-    console.log(1111, c);
-    console.log(1111, chartype);
+    wordDebug('characters: %o', Object.fromEntries(c.map((c, i) => [c, chartype[i]])));
 
     // i = 1, #c + 1 in lua
-    for (let i = 0; i < c.length; i++) {
+    for (let i = 0; i < c.length + 1; i++) {
+      const itDebug = wordDebug.extend(i);
+      itDebug('+'.repeat(20))
+      itDebug('progress: %s', progress.toUpperCase());
+
       const next_types = [];
-      if (i === c.length - 1 || chartype[i] === 'ZWS') {
-        console.log('if ending ...');
+      if (i === c.length || chartype[i] === 'ZWS') {
+        itDebug('if char is last or ZWS ...');
         progress = 'none';
         table.insert(syl, table.concat(curr_syl, ''));
         curr_syl = [];
       }
       // 159
       else if (progress === 'none') {
-        console.log('if no progress ...');
+        itDebug('char type: %s', chartype[i].toUpperCase());
         if (chartype[i] === 'consonant') {
+          itDebug('its consonant, set progress to initial');
           table.insert(curr_syl, c[i]);
           progress = 'initial';
         } else {
+          itDebug('its NOT consonant, not change progress');
           table.insert(syl, c[i]);
         }
       }
       // 167
       else if (progress === 'initial') {
-        console.log('if progress init ...');
+        itDebug('char type: %s', chartype[i].toUpperCase());
         if (chartype[i] === 'combining_sign') {
           table.insert(curr_syl, c[i]);
           progress = 'initial_combining';
@@ -77,7 +94,7 @@ export function tr(text: string) {
         } else if (chartype[i] === 'terminating_vowel') {
           if (
             c[i - 1] + c[i] + (c[i + 1] || '') === 'ាំង' &&
-            (i === c.length - 1 || (i > c.length && chartype[i + 2] === 'consonant'))
+            (i === c.length - 2 || (i > c.length && chartype[i + 2] === 'consonant'))
           ) {
             table.insert(curr_syl, c[i]);
             progress = 'vowel';
@@ -88,11 +105,12 @@ export function tr(text: string) {
             progress = 'none';
           }
         } else if (chartype[i] === 'consonant') {
-          console.log('if char type is consonant ...');
+          itDebug('founding vowel...');
           let vowel_found = false;
           let j = i,
             skipped = 0;
           while (!vowel_found) {
+            itDebug('j: %d, skipped: %d', j, skipped)
             if (
               !(
                 chartype[j] ||
@@ -114,8 +132,8 @@ export function tr(text: string) {
               vowel_found = true;
             }
             j = j + 1;
+            itDebug('results: %o', { j, skipped, vowel_found })
           }
-          console.log('next_types', next_types);
           if (skipped !== 0 || match(table.concat(next_types, ' '), 'consonant s?i?g?n? ?consonant')) {
             table.insert(curr_syl, c[i]);
             progress = 'coda';
@@ -125,14 +143,14 @@ export function tr(text: string) {
             progress = 'initial';
           }
         } else {
-          console.log('if char type is not consonant ...');
+          itDebug('if char type is NOT consonant ...');
           table.insert(syl, c[i]);
           progress = 'none';
         }
       }
       // 212
       else if (progress === 'initial_combining') {
-        console.log('if progress is initial_combining ...');
+        itDebug('char type: %s', chartype[i].toUpperCase());
         if (chartype[i] === 'consonant') {
           table.insert(curr_syl, c[i]);
           progress = 'initial';
@@ -143,13 +161,13 @@ export function tr(text: string) {
       }
       // 220
       else if (progress === 'vowel') {
-        console.log('if progress is vowel ...');
+        itDebug('char type: %s', chartype[i].toUpperCase());
         if (chartype[i] === 'vowel_sign') {
           table.insert(curr_syl, c[i]);
         } else if (chartype[i] === 'terminating_vowel') {
           if (
             c[i - 1] + c[i] + (c[i + 1] || '') === 'ាំង' &&
-            (i === c.length - 1 || (i > c.length && chartype[i + 2] === 'consonant'))
+            (i === c.length - 2 || (i > c.length && chartype[i + 2] === 'consonant'))
           ) {
             table.insert(curr_syl, c[i]);
             progress = 'vowel';
@@ -160,7 +178,6 @@ export function tr(text: string) {
             progress = 'none';
           }
         } else if (chartype[i] === 'consonant') {
-          console.log('if char type is consonant ...');
           let vowel_found = false;
           let j = i,
             skipped = 0;
@@ -187,7 +204,6 @@ export function tr(text: string) {
             }
             j++;
           }
-          console.log('190 next_types', next_types);
           if (skipped !== 0 || match(table.concat(next_types, ' '), 'consonant s?i?g?n? ?consonant')) {
             table.insert(curr_syl, c[i]);
             progress = 'coda';
@@ -203,7 +219,7 @@ export function tr(text: string) {
       }
       // 259
       else if (progress === 'coda') {
-        console.log('if coda ...');
+        itDebug('char type: %s', chartype[i].toUpperCase());
         if (chartype[i] === 'combining_sign') {
           table.insert(curr_syl, c[i]);
           progress = 'coda_combining';
@@ -223,7 +239,6 @@ export function tr(text: string) {
       }
       // 276
       else if (progress === 'coda_combining') {
-        console.log('if coda_combining ...');
         if (chartype[i] === 'consonant') {
           table.insert(curr_syl, c[i]);
           progress = 'coda';
@@ -233,8 +248,9 @@ export function tr(text: string) {
           progress = 'none';
         }
       }
+      itDebug('changed: %o', { progress, curr_syl, syl, next_types });
     }
-    console.log('syl', syl);
+    const replacingDebug = wordDebug.extend('replacing');
     // 287
     for (let i = 0; i < syl.length; i++) {
       if (match(syl[i], '៍')) {
@@ -254,8 +270,17 @@ export function tr(text: string) {
         syl[i],
         '^([កខគឃងចឆជឈញដឋឌឍណតថទធនបផពភមយរលវឝឞសហឡអ])្?([កខគឃងចឆជឈញដឋឌឍណតថទធនបផពភមយរលវឝឞសហឡអ]?)([៉៊]?)([ិីឹឺុូួើឿៀេែៃោៅា័]?[ំះៈ]?)([៉៊]?)([កខគឃងចឆជឈញដឋឌឍណតថទធនបផពភមយរលវឝឞសហឡអ]?៉?)្?([កខគឃងចឆជឈញដឋឌឍណតថទធនបផពភមយរលវឝឞសហឡអ]?)(៖?)$',
         (...args) => {
-          console.log('args', args);
           let [initial_a, initial_b, cons_shifter_a, vowel, cons_shifter_b, coda_a, coda_b, optional_sign] = args;
+          replacingDebug('replacer args: %o', {
+            initial_a,
+            initial_b,
+            cons_shifter_a,
+            vowel,
+            cons_shifter_b,
+            coda_a,
+            coda_b,
+            optional_sign,
+          });
           if (
             cons_shifter_a + cons_shifter_b + vowel + coda_a + coda_b === '' &&
             initial_b !== '' &&
@@ -284,7 +309,6 @@ export function tr(text: string) {
           } else if (cons_shifter === '៊') {
             vowel_class = 'o';
           } else {
-            console.log('c', initial_a + initial_b + cons_shifter + vowel + coda_a + coda_b + optional_sign);
             return initial_a + initial_b + cons_shifter + vowel + coda_a + coda_b + optional_sign;
           }
           // 322
@@ -293,7 +317,6 @@ export function tr(text: string) {
             (digraph[coda_a + '្' + coda_b] || (cons_conv[coda_a] && cons_conv[coda_b])) &&
             vowel_conv[vowel]
           ) {
-            console.log('a')
             return (
               digraph[initial_a + '្' + initial_b] +
               vowel_conv[vowel][vowel_class] +
@@ -307,7 +330,6 @@ export function tr(text: string) {
             cons_conv[coda_a] +
             cons_conv[coda_b]
           ) {
-            console.log('b')
             return (
               cons_conv[initial_a][0] +
               cons_conv[initial_b][0] +
@@ -324,14 +346,16 @@ export function tr(text: string) {
         syl[i] = syl[i - 1];
       }
     }
-    console.log('syl', syl);
+    replacingDebug('syl: %o', syl);
     word = table.concat(syl, '');
+    replacingDebug('word: %s', word);
     text = gsub(text, original_text, word);
-    console.log('text 11', text);
+    replacingDebug('text: %s', text);
   }
   // 337
   text = gsub(text, '.', indep_vowel);
   text = gsub(text, '([^ ]*) ៗ', '%1 %1');
+  trDebug('final text: %s', text);
 
   return toNFC(text);
 }
