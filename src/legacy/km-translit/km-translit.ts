@@ -58,7 +58,7 @@ export function tr(text: string) {
     // i = 1, #c + 1 in lua
     for (let i = 0; i < c.length + 1; i++) {
       const itDebug = wordDebug.extend(i);
-      itDebug('+'.repeat(20))
+      itDebug('+'.repeat(20));
       itDebug('progress: %s', progress.toUpperCase());
 
       const next_types = [];
@@ -104,21 +104,21 @@ export function tr(text: string) {
             curr_syl = [];
             progress = 'none';
           }
-        } else if (chartype[i] === 'consonant') {
+        }
+        // 186
+        else if (chartype[i] === 'consonant') {
           itDebug('founding vowel...');
           let vowel_found = false;
           let j = i,
             skipped = 0;
           while (!vowel_found) {
-            itDebug('j: %d, skipped: %d', j, skipped)
+            itDebug('j: %d, skipped: %d', j, skipped);
             if (
-              !(
-                chartype[j] ||
-                chartype[j] === 'punctuation' ||
-                chartype[j] === 'indep_vowel' ||
-                chartype[j] === 'terminating_sign' ||
-                chartype[j] === 'ZWS'
-              )
+              !chartype[j] ||
+              chartype[j] === 'punctuation' ||
+              chartype[j] === 'indep_vowel' ||
+              chartype[j] === 'terminating_sign' ||
+              chartype[j] === 'ZWS'
             ) {
               skipped = 1;
               break;
@@ -132,9 +132,10 @@ export function tr(text: string) {
               vowel_found = true;
             }
             j = j + 1;
-            itDebug('results: %o', { j, skipped, vowel_found })
+            itDebug('results: %o', { j, skipped, vowel_found });
           }
-          if (skipped !== 0 || match(table.concat(next_types, ' '), 'consonant s?i?g?n? ?consonant')) {
+          // console.log(4444, !!match(table.concat(next_types, ' '), 'consonant (sign )?consonant'))
+          if (skipped !== 0 || match(table.concat(next_types, ' '), 'consonant (sign )?consonant')) {
             table.insert(curr_syl, c[i]);
             progress = 'coda';
           } else {
@@ -183,13 +184,11 @@ export function tr(text: string) {
             skipped = 0;
           while (!vowel_found) {
             if (
-              !(
-                chartype[j] ||
-                chartype[j] === 'punctuation' ||
-                chartype[j] === 'indep_vowel' ||
-                chartype[j] === 'terminating_sign' ||
-                chartype[j] === 'ZWS'
-              )
+              !chartype[j] ||
+              chartype[j] === 'punctuation' ||
+              chartype[j] === 'indep_vowel' ||
+              chartype[j] === 'terminating_sign' ||
+              chartype[j] === 'ZWS'
             ) {
               skipped = 1;
               break;
@@ -204,7 +203,7 @@ export function tr(text: string) {
             }
             j++;
           }
-          if (skipped !== 0 || match(table.concat(next_types, ' '), 'consonant s?i?g?n? ?consonant')) {
+          if (skipped !== 0 || match(table.concat(next_types, ' '), 'consonant (sign )?consonant')) {
             table.insert(curr_syl, c[i]);
             progress = 'coda';
           } else {
@@ -251,6 +250,7 @@ export function tr(text: string) {
       itDebug('changed: %o', { progress, curr_syl, syl, next_types });
     }
     const replacingDebug = wordDebug.extend('replacing');
+    replacingDebug('before', { syl });
     // 287
     for (let i = 0; i < syl.length; i++) {
       if (match(syl[i], '៍')) {
@@ -270,7 +270,7 @@ export function tr(text: string) {
         syl[i],
         '^([កខគឃងចឆជឈញដឋឌឍណតថទធនបផពភមយរលវឝឞសហឡអ])្?([កខគឃងចឆជឈញដឋឌឍណតថទធនបផពភមយរលវឝឞសហឡអ]?)([៉៊]?)([ិីឹឺុូួើឿៀេែៃោៅា័]?[ំះៈ]?)([៉៊]?)([កខគឃងចឆជឈញដឋឌឍណតថទធនបផពភមយរលវឝឞសហឡអ]?៉?)្?([កខគឃងចឆជឈញដឋឌឍណតថទធនបផពភមយរលវឝឞសហឡអ]?)(៖?)$',
         (...args) => {
-          let [initial_a, initial_b, cons_shifter_a, vowel, cons_shifter_b, coda_a, coda_b, optional_sign] = args;
+          let [, initial_a, initial_b, cons_shifter_a, vowel, cons_shifter_b, coda_a, coda_b, optional_sign] = args;
           replacingDebug('replacer args: %o', {
             initial_a,
             initial_b,
@@ -300,8 +300,9 @@ export function tr(text: string) {
           }
           optional_sign = gsub(optional_sign, '៖', 'ː');
           // 311
+          replacingDebug('detecting vowel class: %o', { syl_i: syl[i], cons_shifter_a, cons_shifter_b });
           let cons_shifter = cons_shifter_a + cons_shifter_b;
-          let vowel_class;
+          let vowel_class: string;
           if (cons_shifter === '' && cons_conv[base]) {
             vowel_class = cons_conv[base][1]; // cons_conv[base][2] in lua
           } else if (cons_shifter === '៉') {
@@ -311,6 +312,7 @@ export function tr(text: string) {
           } else {
             return initial_a + initial_b + cons_shifter + vowel + coda_a + coda_b + optional_sign;
           }
+          replacingDebug('vowel class: %s', vowel_class.toUpperCase());
           // 322
           if (
             digraph[initial_a + '្' + initial_b] &&
@@ -346,11 +348,9 @@ export function tr(text: string) {
         syl[i] = syl[i - 1];
       }
     }
-    replacingDebug('syl: %o', syl);
     word = table.concat(syl, '');
-    replacingDebug('word: %s', word);
     text = gsub(text, original_text, word);
-    replacingDebug('text: %s', text);
+    replacingDebug('replaced: %o', { syl, word, text });
   }
   // 337
   text = gsub(text, '.', indep_vowel);

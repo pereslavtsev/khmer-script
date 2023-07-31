@@ -1,4 +1,4 @@
-import { gsub, sub } from './ustring';
+import { gsub, match, sub } from './ustring';
 
 describe('ustring', () => {
   it('sub', () => {
@@ -23,5 +23,10 @@ describe('ustring', () => {
     expect(sub('hello world', 1, 5)).toBe('hello');
     expect(sub('hello world', 7, 10)).toBe('worl');
     expect(sub('[in code]', 2, -2)).toBe('in code');
+  });
+
+  it('match', () => {
+    expect(match('consonant sign consonant', 'consonant (sign )?consonant')).toBeTruthy();
+    expect(match('consonant consonant', 'consonant (sign )?consonant')).toBeTruthy();
   });
 });

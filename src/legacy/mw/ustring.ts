@@ -1,9 +1,25 @@
-export function gsub(text: string, pattern: string, replaceValue: string | Record<string, string> | ((...args: string[]) => string), limit?: number): string {
+class LuaRegExp extends RegExp {
+  constructor(pattern: string, flags?: string) {
+    super(pattern.replace('%', '\\'), flags);
+  }
+}
+
+export function gsub(
+  text: string,
+  pattern: string,
+  replaceValue: string | Record<string, string> | ((...args: string[]) => string),
+  limit?: number,
+): string {
   // TODO: limit
-  const regexp = new RegExp(pattern.replace('%', '\\'), 'g');
+  const regexp = new LuaRegExp(pattern, 'g');
   switch (typeof replaceValue) {
     case 'function': {
-      return text.replace(regexp, replaceValue);
+      return text.replace(regexp, (substring, ...args) => {
+        if (!replaceValue(substring, ...args)) {
+          return substring;
+        }
+        return replaceValue(substring, ...args);
+      });
     }
     case 'object': {
       return text.replace(regexp, (substring) => {
@@ -15,17 +31,17 @@ export function gsub(text: string, pattern: string, replaceValue: string | Recor
     }
     case 'string':
     default: {
-      return text.replace(regexp, replaceValue.replace('%', '$'));
+      return text.replace(regexp, replaceValue.replace(/%/g, '$'));
     }
   }
 }
 
 export function gmatch(text: string, pattern: string) {
-  return text.match(new RegExp(pattern, 'g'));
+  return text.match(new LuaRegExp(pattern, 'g'));
 }
 
 export function match(text: string, pattern: string) {
-  return text.match(pattern);
+  return text.match(new LuaRegExp(pattern));
 }
 
 export function len(text: string): number {

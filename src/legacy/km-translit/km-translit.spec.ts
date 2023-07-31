@@ -12,7 +12,7 @@ interface TestCase {
 
 describe('Module:km-translit/testcases', () => {
   it(``, () => {
-    expect(tr('ដីឥដ្ឋ')).toEqual('ʼĕdeidth');
+    expect(tr('សេចក្ដីស្រឡាញ់')).toEqual('séchkdeisrâlanh');
   });
 
   // describe('compare with actual (legacy) ', () => {
