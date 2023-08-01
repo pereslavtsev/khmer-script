@@ -1,10 +1,12 @@
 import * as mw from '../../mw';
+import { IScriptData } from '../interfaces';
+import { ipairs } from '../../utils';
 
 export class Script {
   private readonly _type: string;
   private readonly _systemCodes: any[];
 
-  constructor(private readonly _code: string, private readonly _rawData: Record<string, any>) {}
+  constructor(private readonly _code: string, private readonly _rawData: IScriptData) {}
 
   /**
    * Returns the script code of the language.
@@ -66,7 +68,21 @@ export class Script {
 
   hasType() {}
 
-  getCategoryName() {}
+  getCategoryName(nocap: string) {
+    let name = this._rawData[0] ?? this._rawData.canonicalName
+
+    // If the name already has "code" or "semaphore" in it, don't add it.
+    // No names contain "script".
+    // if (!name.find("[Cc]ode$") && !name.find("[Ss]emaphore$"))
+    // {
+    //   name = name + " script"
+    // }
+
+    if (!nocap) {
+      name = mw.getContentLanguage().ucfirst(name)
+    }
+    return name
+  }
 
   makeCategoryLink() {}
 
@@ -74,15 +90,29 @@ export class Script {
 
   getCharacters() {}
 
-  countCharacters() {}
+  /**
+   * Returns the number of characters in the text that are part of this script.
+   * '''Note:''' You should never rely on text consisting entirely of the same script.
+   * Strings may contain spaces, punctuation and even wiki markup or HTML tags.
+   * HTML tags will skew the counts, as they contain Latin-script characters.
+   * So it's best to avoid them.
+   */
+  countCharacters(): number {
+    if (this._rawData.characters) {
+      return 0;
+    }
+    // Due to the number of Chinese characters, a different determination method is used when differentiating between traditional ("Hant") and simplified ("Hans") Chinese.
+  }
 
-  hasCapitalization() {}
+  hasCapitalization(): boolean {
+    return !!this._rawData.capitalized
+  }
 
-  hasSpaces() {
+  hasSpaces(): boolean {
     return this._rawData.spaces !== false;
   }
 
-  isTransliterated() {
+  isTransliterated(): boolean {
     return this._rawData.translit !== false;
   }
 
@@ -98,11 +128,11 @@ export class Script {
    * Returns the text direction, if any. Currently, left-to-right scripts are unmarked,
    * while most right-to-left scripts have direction specified as {{code|lua|"rtl"}} and Mongolian as {{code|lua|"down"}}.]
    */
-  getDirection() {
+  getDirection(): string {
     return this._rawData.direction;
   }
 
-  getRawData() {
+  getRawData(): IScriptData {
     return this._rawData;
   }
 
