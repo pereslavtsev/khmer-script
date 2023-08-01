@@ -1,7 +1,7 @@
 import { cons_conv, vowel_conv, indep_vowel, digraph, sp_symbols, char_type } from './consts';
 import * as table from './table';
 import * as mw from '../mw';
-import * as sc from '../sc';
+import * as sc from '../scripts/scripts';
 // @ts-ignore
 import debug from 'debug';
 

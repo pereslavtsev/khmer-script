@@ -58,3 +58,15 @@ export function sub(text: string, start: number, end: number): string {
 export function toNFC(text: string): string {
   return text.normalize('NFC');
 }
+
+export function toNFD(text: string): string {
+  return text.normalize('NFD');
+}
+
+export function toNFKC(text: string): string {
+  return text.normalize('NFKC');
+}
+
+export function toNFKD(text: string): string {
+  return text.normalize('NFKD');
+}
